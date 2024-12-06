@@ -1,0 +1,16 @@
+{
+	"title": "MissingComparison",
+	"input": {
+		"WHERE": {
+			"AND": {}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

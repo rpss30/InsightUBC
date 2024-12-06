@@ -1,0 +1,232 @@
+{
+	"title": "SectionsWithWalter",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*walter"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_instructor"
+			],
+			"ORDER": "sections_id"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_id": "103",
+			"sections_instructor": "doebeli, michael walter"
+		},
+		{
+			"sections_id": "154",
+			"sections_instructor": "scott, walter"
+		},
+		{
+			"sections_id": "154",
+			"sections_instructor": "scott, walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mattison, thomas;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mattison, thomas;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "170",
+			"sections_instructor": "mcmillan, j malcolm;semenoff, gordon walter"
+		},
+		{
+			"sections_id": "211",
+			"sections_instructor": "algar, walter"
+		},
+		{
+			"sections_id": "211",
+			"sections_instructor": "algar, walter"
+		},
+		{
+			"sections_id": "211",
+			"sections_instructor": "algar, walter"
+		},
+		{
+			"sections_id": "251",
+			"sections_instructor": "scott, walter"
+		},
+		{
+			"sections_id": "251",
+			"sections_instructor": "scott, walter"
+		},
+		{
+			"sections_id": "260",
+			"sections_instructor": "richardson, alan walter"
+		},
+		{
+			"sections_id": "320",
+			"sections_instructor": "blok, hendrik;doebeli, michael walter"
+		},
+		{
+			"sections_id": "320",
+			"sections_instructor": "blok, hendrik;doebeli, michael walter"
+		},
+		{
+			"sections_id": "320",
+			"sections_instructor": "blok, hendrik;doebeli, michael walter"
+		},
+		{
+			"sections_id": "320",
+			"sections_instructor": "blok, hendrik;doebeli, michael walter"
+		},
+		{
+			"sections_id": "360",
+			"sections_instructor": "doebeli, michael walter"
+		},
+		{
+			"sections_id": "360",
+			"sections_instructor": "doebeli, michael walter"
+		},
+		{
+			"sections_id": "360",
+			"sections_instructor": "doebeli, michael walter"
+		},
+		{
+			"sections_id": "393",
+			"sections_instructor": "richardson, alan walter"
+		},
+		{
+			"sections_id": "431",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "431",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "431",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "431",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "445",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "501",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "526",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "526",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "526",
+			"sections_instructor": "semenoff, gordon walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		},
+		{
+			"sections_id": "545",
+			"sections_instructor": "merida-donis, walter"
+		}
+	]
+}

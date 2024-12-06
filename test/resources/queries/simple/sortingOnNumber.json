@@ -1,0 +1,137 @@
+{
+	"title":"Simple sorting based on number values",
+	"input":{
+		"WHERE":{
+
+		},
+		"OPTIONS":{
+			"COLUMNS":[
+				"engl_dept",
+				"engl_avg",
+				"engl_title",
+				"engl_uuid",
+				"engl_id",
+				"engl_title",
+				"engl_instructor",
+				"engl_dept",
+				"engl_year",
+				"engl_avg",
+				"engl_pass",
+				"engl_fail",
+				"engl_audit"
+			],
+			"ORDER":"engl_avg"
+		}
+	},
+	"errorExpected":false,
+	"expected":[
+		{
+			"engl_uuid": "18810",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"endo, paul",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":66,
+			"engl_pass":21,
+			"engl_fail":2,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18807",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"mahon, peter",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":67.52,
+			"engl_pass":28,
+			"engl_fail":1,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18811",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"nelson-mcdermott, catherine",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":69.4,
+			"engl_pass":25,
+			"engl_fail":0,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18804",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"roberts, duff",
+			"engl_dept":"engl",
+			"engl_year":2012,
+			"engl_avg":69.76,
+			"engl_pass":33,
+			"engl_fail":1,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18808",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"roberts, duff",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":71.52,
+			"engl_pass":31,
+			"engl_fail":0,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18809",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"hart, r alexander",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":71.94,
+			"engl_pass":32,
+			"engl_fail":0,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18806",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"morgan, george macgregor",
+			"engl_dept":"engl",
+			"engl_year": 2012,
+			"engl_avg":71.96,
+			"engl_pass":25,
+			"engl_fail":0,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18805",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"grubisic, brett",
+			"engl_dept": "engl",
+			"engl_year": 2012,
+			"engl_avg":73.28,
+			"engl_pass":32,
+			"engl_fail":0,
+			"engl_audit":0
+		},
+		{
+			"engl_uuid": "18803",
+			"engl_id":"110",
+			"engl_title":"intro literature",
+			"engl_instructor":"fox, lorcan francis",
+			"engl_dept":"engl",
+			"engl_year":2012,
+			"engl_avg":76.44,
+			"engl_pass":32,
+			"engl_fail":0,
+			"engl_audit":0
+		}
+	]
+}

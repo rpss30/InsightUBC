@@ -1,0 +1,1022 @@
+{
+	"title": "SmallGroupOrOpenArea",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"IS": {
+						"rooms_type": "Open Design General Purpose"
+					}
+				},
+				{
+					"IS": {
+						"rooms_type": "Small Group"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname",
+				"rooms_type"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"rooms_fullname"
+				]
+			}
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Anthropology and Sociology",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Auditorium Annex",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Auditorium Annex",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Biological Sciences",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Biological Sciences",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Brock Hall Annex",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Buchanan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Chemical and Biological Engineering Building",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Civil and Mechanical Engineering",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Civil and Mechanical Engineering",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Earth and Ocean Sciences - Main",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Food, Nutrition and Health",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Forest Sciences Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Frank Forward",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Frank Forward",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Frank Forward",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Frederic Lasserre",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Frederic Lasserre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Frederic Lasserre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Geography",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Hebb",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Hebb",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Hebb",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Hennings",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Hennings",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Hennings",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Henry Angus",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Hugh Dempster Pavilion",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Hugh Dempster Pavilion",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Iona Building",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Irving K Barber Learning Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Jack Bell Building for the School of Social Work",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "MacLeod",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "MacMillan",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Mathematics",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Neville Scarfe",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Orchard Commons",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Pharmaceutical Sciences Building",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Ponderosa Commons: Oak House",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Robert F. Osborne Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Robert F. Osborne Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Robert F. Osborne Centre",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "School of Population and Public Health",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "The Leon and Thea Koerner University Centre",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "The Leon and Thea Koerner University Centre",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "The Leon and Thea Koerner University Centre",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "War Memorial Gymnasium",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "War Memorial Gymnasium",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Open Design General Purpose"
+		},
+		{
+			"rooms_fullname": "West Mall Swing Space",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+			"rooms_type": "Small Group"
+		}
+	]
+}

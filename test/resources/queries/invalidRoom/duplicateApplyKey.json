@@ -1,0 +1,31 @@
+{
+	"title": "DuplicateApplyKey",
+	"input": {
+		"WHERE": {},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"roomCount": {
+						"COUNT": "rooms_shortname"
+					}
+				},
+				{
+					"roomCount": {
+						"COUNT": "rooms_name"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"roomCount"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

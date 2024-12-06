@@ -1,0 +1,8927 @@
+{
+	"title": "AllIntroSections",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "intro*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro: classical"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro: classical"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro: classical"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro: classical"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro classcl ii"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro classcl ii"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro classcl ii"
+		},
+		{
+			"sections_dept": "arbc",
+			"sections_title": "intro classcl ii"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "atsc",
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro envr eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro envr eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro envr eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro envr eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro solid wast"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro solid wast"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro solid wast"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_title": "intro solid wast"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "intro ece & care"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_title": "intro ece & care"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "intro screen act"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_title": "intro screen act"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro salish i"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro salish i"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro salish ii"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro salish ii"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro endg lang"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_title": "intro endg lang"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine sci 2"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine sci 2"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine sci 2"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_title": "intro wine sci 2"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "intro old french"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_title": "intro old french"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "law",
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "math",
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_dept": "mdvl",
+			"sections_title": "intro mdvl studi"
+		},
+		{
+			"sections_dept": "mdvl",
+			"sections_title": "intro mdvl studi"
+		},
+		{
+			"sections_dept": "mdvl",
+			"sections_title": "intro mdvl studi"
+		},
+		{
+			"sections_dept": "mdvl",
+			"sections_title": "intro mdvl studi"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_dept": "micb",
+			"sections_title": "intro microbiol"
+		},
+		{
+			"sections_dept": "micb",
+			"sections_title": "intro microbiol"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "path",
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "punj",
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "intro abrhmc rel"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "intro abrhmc rel"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "intro abrhmc rel"
+		},
+		{
+			"sections_dept": "relg",
+			"sections_title": "intro abrhmc rel"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit 1"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit 1"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit 1"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit 1"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "stat",
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_dept": "visa",
+			"sections_title": "intro prnt media"
+		}
+	]
+}

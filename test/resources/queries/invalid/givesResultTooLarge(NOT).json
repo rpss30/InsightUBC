@@ -1,0 +1,21 @@
+{
+	"title": "gives result too large (NOT)",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"IS": {
+					"sections_dept": "cpsc"
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

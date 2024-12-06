@@ -1,0 +1,225 @@
+{
+	"title": "AllMathSectionsAvgLT70",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"LT": {
+						"sections_avg": 70
+					}
+				},
+				{
+					"IS": {
+						"sections_title": "math*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "math",
+			"sections_avg": 55.64
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 56.76
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.12
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.26
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.33
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 57.98
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.28
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.6
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.64
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 58.96
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.33
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.33
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.64
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 59.64
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.04
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.17
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.22
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.22
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 60.84
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.21
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.21
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.28
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.63
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 61.8
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 62.29
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 63.12
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 63.25
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 63.6
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 63.79
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 64.24
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 64.45
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 64.45
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 64.5
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 64.78
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 65.04
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 65.29
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 65.4
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 65.74
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 66.55
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 66.7
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 67.02
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 67.05
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 67.08
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 67.36
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 67.83
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 68.38
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 68.46
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 68.51
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 68.73
+		}
+	]
+}

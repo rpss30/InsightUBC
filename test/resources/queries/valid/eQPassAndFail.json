@@ -1,0 +1,160 @@
+{
+	"title": "EQ pass and fail",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"EQ": {
+						"sections_pass": 100
+					}
+				},
+				{
+					"EQ": {
+						"sections_fail": 0
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_fail"
+			],
+			"ORDER": "sections_pass"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "soci",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "soci",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "etec",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "bioc",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "bioc",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "babs",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 100,
+			"sections_fail": 0
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 100,
+			"sections_fail": 0
+		}
+	]
+}

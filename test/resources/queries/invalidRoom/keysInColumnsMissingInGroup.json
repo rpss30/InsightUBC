@@ -1,0 +1,27 @@
+{
+	"title": "KeysInColumnsMissingInGroup",
+	"input": {
+		"WHERE": {},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"MAX": "rooms_seats"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_fullname",
+				"maxSeats"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,25 @@
+/* Adding custom CSS */
+.centered {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.navbar-brand {
+	flex: 1;
+	text-align: center;
+	font-weight: bold; /* Makes the text bold */
+	font-size: 35px; /* Increases the font size */
+}
+
+#bubbleChartContainer,
+#barChartContainer,
+#lineChartContainer {
+	display: block; /* Change this from flex to block if centering isn't needed */
+	margin: auto; /* Center the container horizontally */
+	max-width: 960px; /* Adjust this width as necessary */
+	/* Remove the fixed height or adjust it */
+}
+
+.container {
+	margin-bottom: 20px; /* Add some space below the insight selection container */
+}

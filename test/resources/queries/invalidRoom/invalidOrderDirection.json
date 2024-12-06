@@ -1,0 +1,19 @@
+{
+	"title": "InvalidOrderDirection",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname"
+			],
+			"ORDER": {
+				"dir": "HIGH",
+				"keys": [
+					"rooms_fullname"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

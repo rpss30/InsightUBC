@@ -1,0 +1,70 @@
+{
+	"title": "CpenCoursesFailedByMoreThan5",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpen"
+					}
+				},
+				{
+					"GT": {
+						"sections_fail": 5
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_fail",
+				"sections_year"
+			],
+			"ORDER": "sections_fail"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "operating system",
+			"sections_fail": 7,
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "operating system",
+			"sections_fail": 7,
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "technical comm",
+			"sections_fail": 7,
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "technical comm",
+			"sections_fail": 7,
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "dig syst&mcrocom",
+			"sections_fail": 8,
+			"sections_year": 2015
+		},
+		{
+			"sections_title": "dig syst&mcrocom",
+			"sections_fail": 9,
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intr microcomput",
+			"sections_fail": 10,
+			"sections_year": 1900
+		},
+		{
+			"sections_title": "intr microcomput",
+			"sections_fail": 10,
+			"sections_year": 2015
+		}
+	]
+}

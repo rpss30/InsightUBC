@@ -1,0 +1,27 @@
+{
+	"name": "insightubc",
+	"description": "CPSC 310 Course Project",
+	"homepage": "https://github.com/ubccpsc/310",
+	"author": "Reid Holmes",
+	"private": true,
+	"version": "1.0.0",
+	"engines": {
+		"node": ">= 18 < 19"
+	},
+	"dependencies": {
+		"@types/pug": "^2.0.10",
+		"pug": "^3.0.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"postinstall": "git config core.hooksPath .githooks",
+		"cover": "nyc --reporter text --reporter html yarn run test",
+		"build": "tsc && yarn lint",
+		"test": "mocha --require ts-node/register --timeout 10000 --extension .spec.ts --recursive test",
+		"pretty": "prettier --config ./.prettierrc.json --write \"./**/*.ts\"",
+		"lint": "eslint src test --ext .ts",
+		"fix": "yarn lint --fix",
+		"start": "ts-node src/App.ts",
+		"watch": "nodemon --watch \"src/*\" --exec \"ts-node src/App.ts\""
+	}
+}

@@ -1,0 +1,94 @@
+html
+	head
+		title= "InsightUBC"
+		script(src="https\://unpkg.com/htmx.org@1.9.11")
+		script(src="https\://unpkg.com/hyperscript.org@0.9.11")
+	body
+		h1= "InsightUBC Campus Explorer"
+		h2= "Add Rooms Dataset"
+
+		form
+			input(
+				id="kind"
+				name="kind"
+				value= "sections"
+				type="hidden"
+			)
+			label(for="id") ID:
+			input(
+				id="id"
+				name="id"
+				type="text"
+			)
+			br
+			label(for="roomsfile") File:
+			input(
+				id="roomsfile"
+				name="roomsfile"
+				type="file"
+			)
+			br
+			button(type="button" onclick="saveFile()") Upload
+			script(type="text/javascript").
+				async function saveFile() {
+					var datasetId = document.getElementById('id').value;
+					var fileInput = document.getElementById('roomsfile').files[0];
+					var kind = document.getElementById('kind').value;
+
+					if (fileInput) {
+						var reader = new FileReader();
+						var xhr = new XMLHttpRequest();
+						reader.onload = function() {
+							xhr.open('PUT', '/dataset/' + datasetId + '/' + kind, true);
+							xhr.setRequestHeader('Content-Type', 'application/x-zip-compressed'); // Set the appropriate Content-Type
+							xhr.send(atob(reader.result.split(',')[1])); // Send the ArrayBuffer as the request body
+						};
+						xhr.onreadystatechange = function() {
+							if (xhr.readyState === XMLHttpRequest.DONE) {
+								var response = JSON.parse(xhr.response);
+								const e = {detail: {xhr: {response: {result: []}}}};
+								e.detail.xhr.response.result = response.result.map(dataset => ({id: dataset}));
+								refreshDatasets(e);
+							}
+						}
+						reader.readAsDataURL(fileInput); // Read the file as an ArrayBuffer
+					} else {
+						console.log('Please select a file.');
+					}
+				}
+
+		h2= "Stored Datasets"
+		div(id="datasetList" hx-get="/datasets" hx-trigger="load, refreshDatasets from:body" hx-on="refreshDatasets: alert('refreshDatasets event received')")
+
+		script.
+			htmx.on('htmx:afterRequest', function(e) {
+				alert("refresh triggered by afterRequest");
+				refreshDatasets(e);
+			});
+
+		script(type="text/javascript").
+			function refreshDatasets(e) {
+				var response;
+				if (e.detail.requestConfig && e.detail.requestConfig.path.startsWith('/dataset')) {
+					response = JSON.parse(e.detail.xhr.response);
+				} else if (!e.detail.requestConfig) {
+					response = e.detail.xhr.response;
+				}
+
+				var datasetList = document.getElementById("datasetList");
+				console.log(response);
+				if (response.result.length === 0) {
+					datasetList.innerHTML = "No datasets added.";
+					return;
+				}
+				var datasets = response.result.map(dataset => `<p>${dataset.id}</p>`).join('');
+				datasetList.innerHTML = `${datasets}`;
+			}
+
+
+		h2= "Delete dataset"
+		form(hx-delete="/dataset/" hx-on="htmx:configRequest: event.detail.path += datasetid.value" hx-swap="none")
+			label(for="datasetid") ID:
+			input(name="datasetid" id="datasetid")
+			br
+			button(name="delete") Delete dataset

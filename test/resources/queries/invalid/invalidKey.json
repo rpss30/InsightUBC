@@ -1,0 +1,30 @@
+{
+	"title": "invalid key",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"NOT": {
+						"IS": {
+							"sections_ubc_dept": "cpsc"
+						}
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2015
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

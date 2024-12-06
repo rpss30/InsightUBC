@@ -1,0 +1,1135 @@
+{
+	"title": "uses only IS",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "anth"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "anth",
+			"sections_title": "eating culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "eating culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sex gndr culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sex gndr culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sex gndr culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sex gndr culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "women comp persp"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "women comp persp"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "women comp persp"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "women comp persp"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "museums, colnlsm"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "museums, colnlsm"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "museums, colnlsm"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "visual media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "visual media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro globlizn"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro globlizn"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med tech cul soc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med tech cul soc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "stdy socl inequl"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "stdy socl inequl"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "lang & culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "lang & culture"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv sem msm anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv sem msm anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv sem msm anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "adv sem msm anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem/wok mus stud"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_title": "sem/wok mus stud"
+		}
+	]
+}

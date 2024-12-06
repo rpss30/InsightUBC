@@ -1,0 +1,34 @@
+{
+	"title": "empty columns",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"LT": {
+						"sections_year": 2020
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2010
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 75
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": []
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

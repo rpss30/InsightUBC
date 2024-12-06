@@ -1,0 +1,118 @@
+{
+	"title": "AllHistCoursesWithWorldNonEmptyInstructor",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "hist*"
+					}
+				},
+				{
+					"IS": {
+						"sections_title": "*world*"
+					}
+				},
+				{
+					"NOT": {
+						"IS": {
+							"sections_instructor": ""
+						}
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "dixon, joy;tba"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "brook, timothy"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "brain, robert"
+		},
+		{
+			"sections_instructor": "brook, timothy"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "sindelar, arlene marie"
+		},
+		{
+			"sections_instructor": "brook, timothy"
+		},
+		{
+			"sections_instructor": "dixon, joy;meola, david andrew"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "paterson, carla"
+		},
+		{
+			"sections_instructor": "sindelar, arlene marie"
+		},
+		{
+			"sections_instructor": "dixon, joy;meola, david andrew"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "dixon, joy;lloyd, naomi"
+		},
+		{
+			"sections_instructor": "paterson, carla"
+		},
+		{
+			"sections_instructor": "sindelar, arlene marie"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "brain, robert"
+		},
+		{
+			"sections_instructor": "brook, timothy"
+		},
+		{
+			"sections_instructor": "prange, sebastian"
+		},
+		{
+			"sections_instructor": "nappi, carla"
+		},
+		{
+			"sections_instructor": "brook, timothy"
+		},
+		{
+			"sections_instructor": "dixon, joy"
+		},
+		{
+			"sections_instructor": "laursen, christopher"
+		}
+	]
+}

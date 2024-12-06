@@ -1,0 +1,17 @@
+{
+	"title": "WildcardInMiddleOfString",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_name": "center*hall"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_name"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

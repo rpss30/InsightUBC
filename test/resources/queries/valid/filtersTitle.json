@@ -1,0 +1,400 @@
+{
+	"title": "filters title",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "structural chem"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "monga, vishakha"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;rodriguez nunez, jose"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "addison, christopher;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "berlinguette, curtis;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "chou, keng chang;gates, derek;krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya;maclachlan, mark"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;kunz, tamara;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;kunz, tamara;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya;mcintosh, lawrence"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "kunz, tamara"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;maclachlan, mark"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;new, olivia martina"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;new, olivia martina"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;maclachlan, mark"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "kunz, tamara;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;macfarlane, william andrew"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "kunz, tamara;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "kunz, tamara"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya;thachuk, mark"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya;stewart, jaclyn"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya;mcintosh, lawrence"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "burtnick, leslie d;gates, derek;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "burtnick, leslie d;gates, derek;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "gates, derek;lekhi, priya;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;rodriguez nunez, jose"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "berlinguette, curtis;crane, angela"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;maclachlan, mark"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;monga, vishakha"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "kunz, tamara;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;wolf, michael"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;mehrkhodavandi, parisa"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "burnell, e elliott;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "burnell, e elliott;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya;rodriguez nunez, jose"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "krems, roman;lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "lekhi, priya"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": "crane, angela;sammis, glenn"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_title": "structural chem",
+			"sections_instructor": ""
+		}
+	]
+}

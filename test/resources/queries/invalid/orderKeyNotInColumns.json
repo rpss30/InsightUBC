@@ -1,0 +1,23 @@
+{
+	"title": "OrderKeyNotInColumns",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"EQ": {
+						"sections_year": 2016
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_id",
+				"sections_dept"
+			],
+			"ORDER": "sections_instructor"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

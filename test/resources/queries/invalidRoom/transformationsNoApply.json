@@ -1,0 +1,18 @@
+{
+	"title": "TransformationsNoApply",
+	"input": {
+		"WHERE": {},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms"
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

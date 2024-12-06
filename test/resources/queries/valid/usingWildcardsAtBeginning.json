@@ -1,0 +1,835 @@
+{
+	"title": "using wildcards at beginning",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*es"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": "harris, leila"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": "harris, leila;robinson, john"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": "robinson, john"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": "robinson, john"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": "robinson, john;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": "robinson, john"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "dvl envrn thoght",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": "robinson, john"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "perspec res&env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "kandlikar, milind;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "dowlatabadi, hadi;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "kandlikar, milind;oberg, gunilla"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "oberg, gunilla"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "oberg, gunilla;zerriffi, hisham"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "tba"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": "kandlikar, milind;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "sem resrce & env",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": "harris, leila"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": "wittman, hannah"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": "wittman, hannah"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": "hagerman, shannon marie;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "qual mthd intdsc",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": "kandlikar, milind"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": "chang, stephanie"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": "chang, stephanie"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "humn tech sytems",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": "chan, kai"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": "chan, kai;satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": "chan, kai"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": "harris, leila;johnson, mark"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": "harris, leila;johnson, mark"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "social eco syst",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": "wilson, julie"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "urban watershed",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": "brown, sandra;schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "watershed mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": "brown, sandra"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": "schreier, hanspeter"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "water int dev",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": "kandlikar, milind"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate chnge",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate chnge",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": "zerriffi, hisham"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": "zerriffi, hisham"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate change",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate chnge",
+			"sections_instructor": "cohen, stewart"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "climate chnge",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "risk resrce mgmt",
+			"sections_instructor": "satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "risk resrce mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "risk resrce mgmt",
+			"sections_instructor": "satterfield, theresa"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "risk resrce mgmt",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "mcdaniels, timothy"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": "dowlatabadi, hadi"
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "environ anyl",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "rmes",
+			"sections_title": "master's thesis",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio eco reg",
+			"sections_instructor": "condon, patrick michael"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio eco reg",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio eco reg",
+			"sections_instructor": "condon, patrick michael"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio eco reg",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio sust neig",
+			"sections_instructor": "hein, scot"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio sust neig",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio sust neig",
+			"sections_instructor": "hein, scot"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "studio sust neig",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "hist&theor desig",
+			"sections_instructor": "alissa, reem"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "hist&theor desig",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "hist&theor desig",
+			"sections_instructor": "stevens, sara"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "hist&theor desig",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "policymaking",
+			"sections_instructor": "luymes, donald"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "policymaking",
+			"sections_instructor": ""
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "policymaking",
+			"sections_instructor": "luymes, donald"
+		},
+		{
+			"sections_dept": "udes",
+			"sections_title": "policymaking",
+			"sections_instructor": ""
+		}
+	]
+}

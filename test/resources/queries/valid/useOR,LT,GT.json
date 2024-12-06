@@ -1,0 +1,1379 @@
+{
+	"title": "use OR, LT, GT",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"LT": {
+						"sections_avg": 50
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg",
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "adhe",
+			"sections_avg": 96.11,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 95.94,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 96,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 95.05,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_avg": 95.95,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "arst",
+			"sections_avg": 96.94,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "arst",
+			"sections_avg": 96.94,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "audi",
+			"sections_avg": 96.9,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "audi",
+			"sections_avg": 96.9,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_avg": 95.15,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_avg": 95.15,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 4,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 4,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.47,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.47,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 49.17,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 42.64,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 42.64,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 46.5,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "busi",
+			"sections_avg": 46.95,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 42,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 44.88,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 95.54,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 95.54,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 95.31,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_avg": 95.31,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 42.5,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 33,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 49.25,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 96.27,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "civl",
+			"sections_avg": 96.27,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95.78,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95.78,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95.36,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95.36,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 99.19,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 97.47,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 97.47,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 96.33,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 96,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 96.16,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_avg": 95.36,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 46.71,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 49.07,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95.7,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 95.7,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 96,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 97,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 96,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 98,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 96,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 98,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 96,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_avg": 96,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_avg": 95.58,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_avg": 95.58,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "edst",
+			"sections_avg": 95.78,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "edst",
+			"sections_avg": 95.78,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "edst",
+			"sections_avg": 96.46,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "edst",
+			"sections_avg": 96.46,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 39.03,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 39.03,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 97.5,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 95.16,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "eece",
+			"sections_avg": 98.75,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "eece",
+			"sections_avg": 98.75,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.03,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.03,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.9,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.9,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.15,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.15,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.27,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.27,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.22,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.22,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.5,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.5,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.67,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.67,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.08,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.7,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.36,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.29,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.29,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.21,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.21,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.21,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.13,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.13,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.47,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.47,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.24,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.8,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.41,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.72,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.58,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.58,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.47,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.76,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.76,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.11,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.23,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.41,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.3,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.45,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 98.45,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.83,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.83,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.33,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96.33,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.14,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 96,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.86,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.86,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.78,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.41,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.69,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.31,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.31,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.17,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.17,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.44,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.9,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.16,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.13,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 95.33,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.09,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.09,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "epse",
+			"sections_avg": 97.67,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 96.47,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 96.47,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.1,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.1,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.32,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.32,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.33,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.63,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.96,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.96,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.19,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "etec",
+			"sections_avg": 95.19,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_avg": 96.4,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_avg": 96.4,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_avg": 4.5,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 0,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 46.59,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 49.14,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 96.36,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "frst",
+			"sections_avg": 96.36,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_avg": 95.29,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_avg": 95.29,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_avg": 95.26,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_avg": 95.26,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 34,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 49.15,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 47.13,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 46.33,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "hist",
+			"sections_avg": 46.33,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 96,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 96.06,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 96.06,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 95.36,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "kin",
+			"sections_avg": 95.36,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "libr",
+			"sections_avg": 96.1,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "libr",
+			"sections_avg": 96.1,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 48.9,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 49.73,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 49.86,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 47.29,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "lled",
+			"sections_avg": 47.82,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 46.52,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 49.95,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.44,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.44,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95.67,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95.67,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.25,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.25,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.25,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.25,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 99.78,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 99.78,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.48,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.48,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95.56,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 95.56,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.09,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 97.09,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.83,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.83,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 96.33,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "midw",
+			"sections_avg": 96.5,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "midw",
+			"sections_avg": 96.5,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 96.59,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 95.18,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 95.43,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 95.6,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "mine",
+			"sections_avg": 95.44,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 96.25,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_avg": 96.25,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95.38,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 95.67,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 96.5,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 96.5,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.71,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.71,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.21,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.21,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.13,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.13,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.29,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.29,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.43,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 95.43,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 96.64,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 96.64,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 97.53,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 97.53,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.5,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.5,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.58,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 98.58,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 96.73,
+			"sections_year": 2016
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 96.73,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 97.33,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_avg": 97.33,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_avg": 96,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "phar",
+			"sections_avg": 95.07,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 96,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "phil",
+			"sections_avg": 33.2,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "phth",
+			"sections_avg": 95.37,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "phth",
+			"sections_avg": 95.37,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 95.43,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 95.43,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "plan",
+			"sections_avg": 96.47,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "plan",
+			"sections_avg": 96.47,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 43.33,
+			"sections_year": 2008
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 96,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 96,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95.75,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95.75,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95.25,
+			"sections_year": 2007
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 95.25,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 97,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 96,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 95.93,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 95.93,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 96.15,
+			"sections_year": 2012
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 96.15,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_avg": 96.09,
+			"sections_year": 2014
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 96.96,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.76,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 98.98,
+			"sections_year": 2015
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 98.98,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.11,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 96.8,
+			"sections_year": 2010
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 96.8,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.75,
+			"sections_year": 2013
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.75,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.09,
+			"sections_year": 2009
+		},
+		{
+			"sections_dept": "spph",
+			"sections_avg": 95.09,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_avg": 95.2,
+			"sections_year": 2011
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_avg": 95.2,
+			"sections_year": 1900
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 1,
+			"sections_year": 1900
+		}
+	]
+}

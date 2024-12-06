@@ -1,0 +1,95 @@
+{
+	"title": "filters instructor",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "kiczales, gregor"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_instructor": "kiczales, gregor"
+		}
+	]
+}

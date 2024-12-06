@@ -1,0 +1,26 @@
+{
+	"title": "InvalidApplyTokenMinKey",
+	"input": {
+		"WHERE": {},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"minName": {
+						"MIN": "rooms_name"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"minName"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

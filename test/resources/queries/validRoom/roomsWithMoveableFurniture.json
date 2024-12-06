@@ -1,0 +1,61 @@
+{
+	"title": "RoomsWithMoveableFurniture",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_furniture": "*Movable*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_type",
+				"roomsWithMovableFurniture"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"roomsWithMovableFurniture"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_type"
+			],
+			"APPLY": [
+				{
+					"roomsWithMovableFurniture": {
+						"COUNT": "rooms_furniture"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_type": "Open Design General Purpose",
+			"roomsWithMovableFurniture": 3
+		},
+		{
+			"rooms_type": "Small Group",
+			"roomsWithMovableFurniture": 3
+		},
+		{
+			"rooms_type": "Active Learning",
+			"roomsWithMovableFurniture": 2
+		},
+		{
+			"rooms_type": "Case Style",
+			"roomsWithMovableFurniture": 1
+		},
+		{
+			"rooms_type": "Tiered Large Group",
+			"roomsWithMovableFurniture": 1
+		},
+		{
+			"rooms_type": "TBD",
+			"roomsWithMovableFurniture": 1
+		}
+	]
+}

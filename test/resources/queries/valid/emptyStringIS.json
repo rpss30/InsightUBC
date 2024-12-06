@@ -1,0 +1,4856 @@
+{
+	"title": "Empty string IS",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"NOT": {
+						"IS": {
+							"sections_dept": ""
+						}
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2015
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 34,
+			"sections_title": "teach adult"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 32,
+			"sections_title": "teach adult"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 33,
+			"sections_title": "inst adul educ"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 33,
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 29,
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 32,
+			"sections_title": "com adult educ"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 30,
+			"sections_title": "com adult educ"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 28,
+			"sections_title": "com adult educ"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 27,
+			"sections_title": "adul educ"
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_pass": 25,
+			"sections_title": "adul educ"
+		},
+		{
+			"sections_dept": "anat",
+			"sections_pass": 79,
+			"sections_title": "gross anat limbs"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_pass": 102,
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_pass": 54,
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_dept": "anth",
+			"sections_pass": 15,
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 32,
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 43,
+			"sections_title": "animal phys i"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 67,
+			"sections_title": "animals&society"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 12,
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 24,
+			"sections_title": "soil process"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 27,
+			"sections_title": "animls globl iss"
+		},
+		{
+			"sections_dept": "apbi",
+			"sections_pass": 3,
+			"sections_title": "plnt-micr inter"
+		},
+		{
+			"sections_dept": "appp",
+			"sections_pass": 65,
+			"sections_title": "sustn & ldrshp"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_pass": 80,
+			"sections_title": "eng analysis i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_pass": 79,
+			"sections_title": "matter&enrgy i"
+		},
+		{
+			"sections_dept": "apsc",
+			"sections_pass": 50,
+			"sections_title": "weap & arms cntl"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 30,
+			"sections_title": "mtrl&mthd constr"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 24,
+			"sections_title": "arch design"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 28,
+			"sections_title": "structures i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 39,
+			"sections_title": "design media i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 4,
+			"sections_title": "arch design iii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 4,
+			"sections_title": "arch design iii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 4,
+			"sections_title": "arch design iii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 7,
+			"sections_title": "arch design iii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 30,
+			"sections_title": "arch technol ii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 9,
+			"sections_title": "arch design v"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 8,
+			"sections_title": "arch design v"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 9,
+			"sections_title": "arch design v"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 4,
+			"sections_title": "arch design v"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 7,
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 13,
+			"sections_title": "grad project ii"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 20,
+			"sections_title": "semnr hist&thry"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 35,
+			"sections_title": "research methods"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 26,
+			"sections_title": "archival dplmtcs"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 27,
+			"sections_title": "arr/desc arch"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 26,
+			"sections_title": "mgmt curr recrds"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 15,
+			"sections_title": "presrv dig recds"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 8,
+			"sections_title": "foip&priv rcrds"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 27,
+			"sections_title": "arch sys & prof"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 13,
+			"sections_title": "preservation"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 54,
+			"sections_title": "vis env mod&post"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 64,
+			"sections_title": "hist of photogry"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 80,
+			"sections_title": "jpn sex&gend flm"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 51,
+			"sections_title": "premodern japan"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 46,
+			"sections_title": "japn religions"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 50,
+			"sections_title": "int rl prmd e as"
+		},
+		{
+			"sections_dept": "asia",
+			"sections_pass": 54,
+			"sections_title": "chin poli th&ins"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_pass": 89,
+			"sections_title": "int astronomy i"
+		},
+		{
+			"sections_dept": "astr",
+			"sections_pass": 80,
+			"sections_title": "astro frontiers"
+		},
+		{
+			"sections_dept": "astu",
+			"sections_pass": 8,
+			"sections_title": "int global citiz"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 12,
+			"sections_title": "acous & art phon"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 37,
+			"sections_title": "fundamental audi"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 12,
+			"sections_title": "hearng and noise"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 12,
+			"sections_title": "cochl implants"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 35,
+			"sections_title": "lang dev life"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 37,
+			"sections_title": "creativity"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 35,
+			"sections_title": "creativity"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 30,
+			"sections_title": "creativity"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 37,
+			"sections_title": "ldrshp develpmnt"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 37,
+			"sections_title": "ldrshp develpmnt"
+		},
+		{
+			"sections_dept": "ba",
+			"sections_pass": 38,
+			"sections_title": "ldrshp develpmnt"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 33,
+			"sections_title": "financial rept'g"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 55,
+			"sections_title": "financial rept'g"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 29,
+			"sections_title": "fin stmt anly i"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 23,
+			"sections_title": "fin stmt anly i"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 49,
+			"sections_title": "fndmntl accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 50,
+			"sections_title": "fndmntl accnting"
+		},
+		{
+			"sections_dept": "baac",
+			"sections_pass": 55,
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_pass": 53,
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_pass": 47,
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_dept": "babs",
+			"sections_pass": 53,
+			"sections_title": "app stat mgmt"
+		},
+		{
+			"sections_dept": "baen",
+			"sections_pass": 41,
+			"sections_title": "grw&exit venture"
+		},
+		{
+			"sections_dept": "baen",
+			"sections_pass": 41,
+			"sections_title": "intrapreneurship"
+		},
+		{
+			"sections_dept": "baen",
+			"sections_pass": 23,
+			"sections_title": "innov&entrepren"
+		},
+		{
+			"sections_dept": "baen",
+			"sections_pass": 45,
+			"sections_title": "innov&entrepren"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 49,
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 50,
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 45,
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 34,
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 55,
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 12,
+			"sections_title": "tpc corp finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 28,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 23,
+			"sections_title": "int rate risk mg"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 15,
+			"sections_title": "fin engineering"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 21,
+			"sections_title": "intntl finan env"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 12,
+			"sections_title": "intntl finan env"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 18,
+			"sections_title": "intl finl mngmnt"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 26,
+			"sections_title": "principl finance"
+		},
+		{
+			"sections_dept": "bafi",
+			"sections_pass": 22,
+			"sections_title": "principl finance"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 45,
+			"sections_title": "2 party negotns"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 45,
+			"sections_title": "2 party negotns"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 27,
+			"sections_title": "2 party negotns"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 33,
+			"sections_title": "mng'g change"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 17,
+			"sections_title": "mng employ rel"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 49,
+			"sections_title": "org behav"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 50,
+			"sections_title": "org behav"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 34,
+			"sections_title": "org behav"
+		},
+		{
+			"sections_dept": "bahr",
+			"sections_pass": 55,
+			"sections_title": "org behav"
+		},
+		{
+			"sections_dept": "bait",
+			"sections_pass": 26,
+			"sections_title": "prj mgt bsn sol"
+		},
+		{
+			"sections_dept": "bait",
+			"sections_pass": 20,
+			"sections_title": "mng info tech"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 24,
+			"sections_title": "new product dev"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 38,
+			"sections_title": "new product dev"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 22,
+			"sections_title": "mrkt research"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 55,
+			"sections_title": "mrkt research"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 41,
+			"sections_title": "services mgnt"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 41,
+			"sections_title": "prod serv manage"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 41,
+			"sections_title": "prod serv manage"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 49,
+			"sections_title": "marketing"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 50,
+			"sections_title": "marketing"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 7,
+			"sections_title": "marketing"
+		},
+		{
+			"sections_dept": "bama",
+			"sections_pass": 55,
+			"sections_title": "marketing"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 14,
+			"sections_title": "prob mgmt models"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 14,
+			"sections_title": "stoch processes"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 13,
+			"sections_title": "optml dcsnmkg i"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 13,
+			"sections_title": "optml dcsnmkg ii"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 13,
+			"sections_title": "consult prac i"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 33,
+			"sections_title": "managerl decisns"
+		},
+		{
+			"sections_dept": "bams",
+			"sections_pass": 28,
+			"sections_title": "managerl decisns"
+		},
+		{
+			"sections_dept": "bapa",
+			"sections_pass": 51,
+			"sections_title": "fnd mgr econ"
+		},
+		{
+			"sections_dept": "bapa",
+			"sections_pass": 50,
+			"sections_title": "fnd mgr econ"
+		},
+		{
+			"sections_dept": "bapa",
+			"sections_pass": 45,
+			"sections_title": "fnd mgr econ"
+		},
+		{
+			"sections_dept": "bapa",
+			"sections_pass": 55,
+			"sections_title": "fnd mgr econ"
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 28,
+			"sections_title": "supply chain mng"
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 41,
+			"sections_title": "supply ch anyl"
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 49,
+			"sections_title": "oper & log"
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 50,
+			"sections_title": "oper & log"
+		},
+		{
+			"sections_dept": "basc",
+			"sections_pass": 34,
+			"sections_title": "oper & log"
+		},
+		{
+			"sections_dept": "basm",
+			"sections_pass": 43,
+			"sections_title": "consult&decision"
+		},
+		{
+			"sections_dept": "basm",
+			"sections_pass": 41,
+			"sections_title": "intrntl trdg env"
+		},
+		{
+			"sections_dept": "baul",
+			"sections_pass": 37,
+			"sections_title": "real estate inv"
+		},
+		{
+			"sections_dept": "bioc",
+			"sections_pass": 138,
+			"sections_title": "proteins"
+		},
+		{
+			"sections_dept": "bioc",
+			"sections_pass": 13,
+			"sections_title": "adv bioc technqs"
+		},
+		{
+			"sections_dept": "bioc",
+			"sections_pass": 18,
+			"sections_title": "adv tpcs prot ch"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 306,
+			"sections_title": "biology of cell"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 292,
+			"sections_title": "biology of cell"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 259,
+			"sections_title": "biology of cell"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 296,
+			"sections_title": "biology of cell"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 67,
+			"sections_title": "bio alg,fung&bry"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 168,
+			"sections_title": "fund genetics"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 150,
+			"sections_title": "fund genetics"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 231,
+			"sections_title": "fund of biostats"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 20,
+			"sections_title": "struc&repr fungi"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 95,
+			"sections_title": "intgrt'd bio lab"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 44,
+			"sections_title": "human hrdty evol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 51,
+			"sections_title": "plnt phyl 1:nutr"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 39,
+			"sections_title": "ecol methodology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 29,
+			"sections_title": "evolutionary eco"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 22,
+			"sections_title": "plnt-micr inter"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 35,
+			"sections_title": "ornith&herpetlgy"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 40,
+			"sections_title": "evl mor mar invr"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 30,
+			"sections_title": "evo cell biology"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 12,
+			"sections_title": "anim cell molec"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 18,
+			"sections_title": "cell biol intrfk"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 96,
+			"sections_title": "comp neurobiolgy"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 62,
+			"sections_title": "comp env physiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 46,
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_dept": "biol",
+			"sections_pass": 12,
+			"sections_title": "biol of the cell"
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_pass": 27,
+			"sections_title": "clin&ind bio eng"
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_pass": 22,
+			"sections_title": "cl&ind biomd eng"
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_pass": 5,
+			"sections_title": "m.a. sc. thesis"
+		},
+		{
+			"sections_dept": "bota",
+			"sections_pass": 14,
+			"sections_title": "sem in botany"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 33,
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 79,
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 48,
+			"sections_title": "intr mgmt acct"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 31,
+			"sections_title": "intr mgmt acct"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 4,
+			"sections_title": "organiztl bhvr"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 0,
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 95,
+			"sections_title": "info systems"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 46,
+			"sections_title": "intm fnc acct i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 22,
+			"sections_title": "intm fnc acct i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 19,
+			"sections_title": "intm fnc acct i"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 26,
+			"sections_title": "cost accounting"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 45,
+			"sections_title": "business finc"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 27,
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 28,
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 52,
+			"sections_title": "adv accounting"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 29,
+			"sections_title": "adv accounting"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 27,
+			"sections_title": "prin audit"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 59,
+			"sections_title": "prin audit"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 8,
+			"sections_title": "prin audit"
+		},
+		{
+			"sections_dept": "busi",
+			"sections_pass": 38,
+			"sections_title": "strg mngmnt bus"
+		},
+		{
+			"sections_dept": "caps",
+			"sections_pass": 30,
+			"sections_title": "adv cel&mol phys"
+		},
+		{
+			"sections_dept": "cens",
+			"sections_pass": 40,
+			"sections_title": "gender & nation"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_pass": 182,
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_pass": 13,
+			"sections_title": "math operations"
+		},
+		{
+			"sections_dept": "chbe",
+			"sections_pass": 12,
+			"sections_title": "moment heat mass"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 189,
+			"sections_title": "str bnd equ chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 152,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 198,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 184,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 207,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 202,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 204,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 184,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 164,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 180,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 87,
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 208,
+			"sections_title": "intr orgnc chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 126,
+			"sections_title": "coord chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 167,
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 85,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 77,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 70,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 77,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 83,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 82,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 70,
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 110,
+			"sections_title": "org chem engneer"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 22,
+			"sections_title": "communcting chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 23,
+			"sections_title": "communcting chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 108,
+			"sections_title": "aqueous envirmnt"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 87,
+			"sections_title": "intr quantm mech"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 2,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 3,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 5,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 27,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 14,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 25,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 5,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 22,
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 19,
+			"sections_title": "integ chem lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 22,
+			"sections_title": "integ chem lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 16,
+			"sections_title": "integ chem lab i"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 42,
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 6,
+			"sections_title": "chem integ lab 2"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 5,
+			"sections_title": "chem integ lab 2"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 5,
+			"sections_title": "chem integ lab 2"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 6,
+			"sections_title": "intg chem lab 2"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 10,
+			"sections_title": "biophysical chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 32,
+			"sections_title": "polymer chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 12,
+			"sections_title": "bioorgan chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 14,
+			"sections_title": "bio-inorganic"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 6,
+			"sections_title": "bioinorganc chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 10,
+			"sections_title": "adv bioorg chem"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 58,
+			"sections_title": "clas poet tang"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 60,
+			"sections_title": "clas poet tang"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 59,
+			"sections_title": "clas poet tang"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 68,
+			"sections_title": "mod chin lit 1"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 61,
+			"sections_title": "mod chin lit 1"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 64,
+			"sections_title": "mod chin lit 1"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 69,
+			"sections_title": "mod chin lit 1"
+		},
+		{
+			"sections_dept": "chin",
+			"sections_pass": 58,
+			"sections_title": "int md ch lit h"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 129,
+			"sections_title": "civl engineer i"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 163,
+			"sections_title": "civl eng matl"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 14,
+			"sections_title": "urbn trans systm"
+		},
+		{
+			"sections_dept": "clch",
+			"sections_pass": 14,
+			"sections_title": "clascl ch 1 (nh)"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_pass": 19,
+			"sections_title": "arch greece&rome"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_pass": 29,
+			"sections_title": "ancient greece"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_pass": 46,
+			"sections_title": "greek roman game"
+		},
+		{
+			"sections_dept": "clst",
+			"sections_pass": 44,
+			"sections_title": "wmn bronz"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 13,
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 15,
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 14,
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 15,
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 12,
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 57,
+			"sections_title": "fmly ed & consul"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 30,
+			"sections_title": "int thry counsel"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 78,
+			"sections_title": "psnl soc dv adlt"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 17,
+			"sections_title": "counslng adults"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 4,
+			"sections_title": "adlt psychpathlg"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 15,
+			"sections_title": "group counsling"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 12,
+			"sections_title": "career planning"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 18,
+			"sections_title": ""
+		},
+		{
+			"sections_dept": "coec",
+			"sections_pass": 29,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "coec",
+			"sections_pass": 43,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_pass": 141,
+			"sections_title": "int cog sys"
+		},
+		{
+			"sections_dept": "cogs",
+			"sections_pass": 24,
+			"sections_title": "seminar cog sys"
+		},
+		{
+			"sections_dept": "cohr",
+			"sections_pass": 43,
+			"sections_title": "stratgc staffing"
+		},
+		{
+			"sections_dept": "cohr",
+			"sections_pass": 35,
+			"sections_title": "intr org consult"
+		},
+		{
+			"sections_dept": "cohr",
+			"sections_pass": 23,
+			"sections_title": "organztnl change"
+		},
+		{
+			"sections_dept": "cohr",
+			"sections_pass": 27,
+			"sections_title": "leadership"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 55,
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 59,
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 61,
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 60,
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 57,
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 23,
+			"sections_title": "entrepreneurship"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 34,
+			"sections_title": "entrepreneurship"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 30,
+			"sections_title": "entrepreneurship"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 193,
+			"sections_title": "int quan dec mak"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 208,
+			"sections_title": "int quan dec mak"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 204,
+			"sections_title": "int quan dec mak"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 209,
+			"sections_title": "int quan dec mak"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 57,
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 120,
+			"sections_title": "organiztl bhvr"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 44,
+			"sections_title": "organiztl bhvr"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "cost accting"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 42,
+			"sections_title": "cost accting"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "cost accting"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 42,
+			"sections_title": "cost accting"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 37,
+			"sections_title": "income tax"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 41,
+			"sections_title": "income tax"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "income tax"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "market research"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "market research"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 38,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 41,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 28,
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 51,
+			"sections_title": "econ entre&innov"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 34,
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 37,
+			"sections_title": "creativity busns"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 17,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 19,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 21,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 21,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 21,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 21,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 21,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 19,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 20,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 15,
+			"sections_title": "business writing"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 48,
+			"sections_title": "govt & business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 48,
+			"sections_title": "govt & business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 48,
+			"sections_title": "govt & business"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 37,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 38,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 41,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 38,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 38,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 33,
+			"sections_title": "negotiation"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 30,
+			"sections_title": "negotiation"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 19,
+			"sections_title": "mar&intn'l trans"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 30,
+			"sections_title": "finan acct adv"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "acc mgt ctrl&inc"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 41,
+			"sections_title": "acc mgt ctrl&inc"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 105,
+			"sections_title": "fndtls fin acct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 206,
+			"sections_title": "fndtls fin acct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 37,
+			"sections_title": "fndtls fin acct"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 31,
+			"sections_title": "integ mrktg comm"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 31,
+			"sections_title": "mkt applications"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "mkt applications"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 33,
+			"sections_title": "intl mrkt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 42,
+			"sections_title": "mgrs & acquisitn"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 37,
+			"sections_title": "mgrs & acquisitn"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 104,
+			"sections_title": "business finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 44,
+			"sections_title": "business finance"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 36,
+			"sections_title": "invest policy"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "risk mgt&fnc eng"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 34,
+			"sections_title": "risk mgt&fnc eng"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 42,
+			"sections_title": "strategic mangmt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 42,
+			"sections_title": "strategic mangmt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 44,
+			"sections_title": "strategic mangmt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 33,
+			"sections_title": "new enter devel"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "int'l bus mngt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 40,
+			"sections_title": "int'l bus mngt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 39,
+			"sections_title": "int'l bus mngt"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 14,
+			"sections_title": "stats methlgy i"
+		},
+		{
+			"sections_dept": "comm",
+			"sections_pass": 12,
+			"sections_title": "rsrch meth 1"
+		},
+		{
+			"sections_dept": "cons",
+			"sections_pass": 155,
+			"sections_title": "fndt conservat'n"
+		},
+		{
+			"sections_dept": "cpen",
+			"sections_pass": 41,
+			"sections_title": "econ anlys proj"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_pass": 139,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_pass": 115,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_pass": 171,
+			"sections_title": "machine lrn mine"
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_pass": 95,
+			"sections_title": "adv opertng sysm"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 361,
+			"sections_title": "intr cr writing"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 211,
+			"sections_title": "intr cr writing"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 91,
+			"sections_title": "intr cr writing"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 127,
+			"sections_title": "intr writ poetry"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 100,
+			"sections_title": "child & yng adlt"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 104,
+			"sections_title": "intr crtv nonfic"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 115,
+			"sections_title": "intr wrt screen"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 60,
+			"sections_title": "intr graph forms"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 214,
+			"sections_title": "intr writ fictin"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 172,
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 79,
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 99,
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 79,
+			"sections_title": "intr writ comdic"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 8,
+			"sections_title": "thesis"
+		},
+		{
+			"sections_dept": "dani",
+			"sections_pass": 18,
+			"sections_title": "elem danish 1"
+		},
+		{
+			"sections_dept": "dani",
+			"sections_pass": 3,
+			"sections_title": "int danish 1"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_pass": 29,
+			"sections_title": "kinder curriclm"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_pass": 33,
+			"sections_title": "asmnt spec needs"
+		},
+		{
+			"sections_dept": "eced",
+			"sections_pass": 30,
+			"sections_title": "supp comm sp nds"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 230,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 105,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 215,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 234,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 395,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 193,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 133,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 103,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 96,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 125,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 93,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 26,
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 85,
+			"sections_title": "princpl macrecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 86,
+			"sections_title": "microecon policy"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 76,
+			"sections_title": "intrm macro anly"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 92,
+			"sections_title": "poverty&ineqalty"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 48,
+			"sections_title": "empirical econ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 84,
+			"sections_title": "intr empir mthds"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 145,
+			"sections_title": "money & banking"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 96,
+			"sections_title": "b-c anly&proj ev"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 74,
+			"sections_title": "b-c anly&proj ev"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 33,
+			"sections_title": "int econ resrch"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 13,
+			"sections_title": "topcs microecon"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 93,
+			"sections_title": "process econ dev"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 69,
+			"sections_title": "internatl trade"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 15,
+			"sections_title": "applied econ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 18,
+			"sections_title": "applied econ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 19,
+			"sections_title": "applied econ"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 11,
+			"sections_title": "honours seminar"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 48,
+			"sections_title": "macro economics"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 3,
+			"sections_title": "spc tpcs macroec"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 45,
+			"sections_title": "math for econmic"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 55,
+			"sections_title": "econometric meth"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_pass": 18,
+			"sections_title": "music education"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_pass": 6,
+			"sections_title": "thry&rs soc cont"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_pass": 7,
+			"sections_title": "res tch & lrn sc"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_pass": 18,
+			"sections_title": "curric iss&thry"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 4,
+			"sections_title": "rsc trd edu admn"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 17,
+			"sections_title": "rsc trd edu admn"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 14,
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 16,
+			"sections_title": "org&admin hi edu"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 15,
+			"sections_title": "adu edu pro"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 20,
+			"sections_title": "ldrshp educ org"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 7,
+			"sections_title": "tcher union educ"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 13,
+			"sections_title": "educ theories"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_pass": 11,
+			"sections_title": "int global citiz"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_pass": 12,
+			"sections_title": "res mthd in educ"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_pass": 16,
+			"sections_title": "res mthd in educ"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 10,
+			"sections_title": "grn nanoelec dev"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 6,
+			"sections_title": "wireless com sys"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 9,
+			"sections_title": "mic&nano fab tec"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 7,
+			"sections_title": "masc thesis"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_pass": 96,
+			"sections_title": "appl el & elmech"
+		},
+		{
+			"sections_dept": "elec",
+			"sections_pass": 96,
+			"sections_title": "econ anlys proj"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_pass": 31,
+			"sections_title": "envr des stdio i"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_pass": 30,
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_dept": "ends",
+			"sections_pass": 31,
+			"sections_title": "env desn std iii"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "read, write lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "read, write lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "read, write lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "read, write lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 138,
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 127,
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 157,
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 125,
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 142,
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 99,
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 29,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 34,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 29,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 29,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 32,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 25,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 29,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 34,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 31,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 27,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 30,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 33,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 26,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 25,
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 28,
+			"sections_title": "brit lit 18c-21c"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 40,
+			"sections_title": "lit in canada"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 15,
+			"sections_title": "lit in u.s.a."
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 39,
+			"sections_title": "poetry"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 40,
+			"sections_title": "indigenous lits"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 38,
+			"sections_title": "grammar & usage"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 43,
+			"sections_title": "engl structure 2"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 42,
+			"sections_title": "18c genre"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 41,
+			"sections_title": "19c genre"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 16,
+			"sections_title": "major seminr lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 12,
+			"sections_title": "major seminr lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 13,
+			"sections_title": "major seminr lit"
+		},
+		{
+			"sections_dept": "engl",
+			"sections_pass": 14,
+			"sections_title": "major seminr lit"
+		},
+		{
+			"sections_dept": "envr",
+			"sections_pass": 34,
+			"sections_title": "intr envrmnt sci"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 24,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 20,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 24,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 23,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 26,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 285,
+			"sections_title": "catastroph earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 56,
+			"sections_title": "earth&planet sci"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 83,
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 49,
+			"sections_title": "igneous petrolgy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 123,
+			"sections_title": "grdwater hydrlgy"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 40,
+			"sections_title": "intr minrl depst"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 149,
+			"sections_title": "glbl climat chng"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 49,
+			"sections_title": "env,geotech i"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 12,
+			"sections_title": "anl time series"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 18,
+			"sections_title": "phys earth&plnts"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 22,
+			"sections_title": "adv grdwtr hydgy"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 37,
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 27,
+			"sections_title": "lrn'g disablties"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 33,
+			"sections_title": "incl bl vis-imp"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 40,
+			"sections_title": "ed st dvl ds inc"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 75,
+			"sections_title": "ed st dvl ds inc"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 67,
+			"sections_title": "typ atyp inf/ch"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 20,
+			"sections_title": "assess lrn diffi"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 15,
+			"sections_title": "prg child sp lrn"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 32,
+			"sections_title": "surv bhvr dis ch"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 28,
+			"sections_title": "educ stds autism"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 60,
+			"sections_title": "educ stds autism"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 17,
+			"sections_title": "intr stat rs edu"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 18,
+			"sections_title": "hn dev, lrn, cul"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 11,
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 14,
+			"sections_title": "prin behav anlys"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 17,
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 20,
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 18,
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_pass": 21,
+			"sections_title": "appl lear theor"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_pass": 20,
+			"sections_title": "appl lear theor"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_pass": 19,
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_dept": "etec",
+			"sections_pass": 18,
+			"sections_title": "ventr learn tech"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_pass": 52,
+			"sections_title": "intr hst flm prd"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_pass": 15,
+			"sections_title": "prodcing film&tv"
+		},
+		{
+			"sections_dept": "fipr",
+			"sections_pass": 9,
+			"sections_title": "adv doc dev&prod"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_pass": 96,
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_pass": 32,
+			"sections_title": "early cinema"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_pass": 37,
+			"sections_title": "hollywood cinema"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_pass": 31,
+			"sections_title": "stdy genre/perio"
+		},
+		{
+			"sections_dept": "fist",
+			"sections_pass": 14,
+			"sections_title": "maj & hon semin"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 75,
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 89,
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 103,
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 100,
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 50,
+			"sections_title": "parent-child rel"
+		},
+		{
+			"sections_dept": "fmst",
+			"sections_pass": 75,
+			"sections_title": "human sexuality"
+		},
+		{
+			"sections_dept": "fnel",
+			"sections_pass": 13,
+			"sections_title": "intmed salish i"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 40,
+			"sections_title": "nutr conc & cont"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 51,
+			"sections_title": "food analysis"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 70,
+			"sections_title": "fnh busns concep"
+		},
+		{
+			"sections_dept": "fnh",
+			"sections_pass": 38,
+			"sections_title": "fdn ntrn care i"
+		},
+		{
+			"sections_dept": "food",
+			"sections_pass": 14,
+			"sections_title": "advances fd sci"
+		},
+		{
+			"sections_dept": "food",
+			"sections_pass": 22,
+			"sections_title": "fnd agr-food bsn"
+		},
+		{
+			"sections_dept": "food",
+			"sections_pass": 11,
+			"sections_title": "adv food anlysis"
+		},
+		{
+			"sections_dept": "food",
+			"sections_pass": 8,
+			"sections_title": "adv food chemist"
+		},
+		{
+			"sections_dept": "food",
+			"sections_pass": 31,
+			"sections_title": "intl fd law&regs"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_pass": 14,
+			"sections_title": "anl mthd frst hy"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_pass": 15,
+			"sections_title": "econ, cont, fina"
+		},
+		{
+			"sections_dept": "fopr",
+			"sections_pass": 7,
+			"sections_title": "forstry machines"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_pass": 55,
+			"sections_title": "sm bus man agri"
+		},
+		{
+			"sections_dept": "fre",
+			"sections_pass": 30,
+			"sections_title": "appld econometrc"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 33,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 35,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 32,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 34,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 30,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 25,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 32,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_title": "intermed fren 1"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 25,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 9,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 28,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 15,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 25,
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 22,
+			"sections_title": "fr lang&style i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_title": "fr lang&style i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 16,
+			"sections_title": "fr lang&style i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 33,
+			"sections_title": "intrd app fren i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 5,
+			"sections_title": "fr prc nnspec i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 5,
+			"sections_title": "fr prc nnspec i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 5,
+			"sections_title": "fr prc nnspec i"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 13,
+			"sections_title": "fr lit in trn ii"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 37,
+			"sections_title": "french grammar"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 31,
+			"sections_title": "advanced comp"
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_title": "intr fren ling"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 231,
+			"sections_title": "sustain forests"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 184,
+			"sections_title": "forest ecology"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 126,
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 14,
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 108,
+			"sections_title": "wtrshed hydro"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 159,
+			"sections_title": "for wildlif ecol"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 85,
+			"sections_title": "sust frst policy"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 39,
+			"sections_title": "adv biometrics"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 68,
+			"sections_title": "remote sensing"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 10,
+			"sections_title": "graduating essay"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 8,
+			"sections_title": "frsts & society"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 18,
+			"sections_title": "for & env policy"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 15,
+			"sections_title": "tech comm skills"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 15,
+			"sections_title": "tech comm skills"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 14,
+			"sections_title": "forestry in b.c."
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 20,
+			"sections_title": "lnd info acq&anl"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_pass": 35,
+			"sections_title": "int biometeorlgy"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_pass": 33,
+			"sections_title": "intr biogeogrphy"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_pass": 92,
+			"sections_title": "geog inform sci"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_pass": 58,
+			"sections_title": "micro wthr&clim"
+		},
+		{
+			"sections_dept": "geob",
+			"sections_pass": 33,
+			"sections_title": "quatrny&app geo"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 77,
+			"sections_title": "geopolitics"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 169,
+			"sections_title": "envir & sust"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 89,
+			"sections_title": "intr poli geog"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 65,
+			"sections_title": "urban geog"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 70,
+			"sections_title": "glbl, city, regn"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 24,
+			"sections_title": "water mgmt"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 25,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 25,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 29,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 26,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 28,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 27,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 24,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 28,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 27,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 25,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 26,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 19,
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 22,
+			"sections_title": "begin germ 2"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 31,
+			"sections_title": "inter germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 28,
+			"sections_title": "inter germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 18,
+			"sections_title": "inter germ i"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 28,
+			"sections_title": "inter germ iii"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 26,
+			"sections_title": "inter germ iii"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 38,
+			"sections_title": "grm lit 1900-45"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 47,
+			"sections_title": "grm lit 1900-45"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 39,
+			"sections_title": "grm lit pst 1945"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 14,
+			"sections_title": "germ translation"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 12,
+			"sections_title": "adv germ"
+		},
+		{
+			"sections_dept": "gpp",
+			"sections_pass": 25,
+			"sections_title": "measr data anlys"
+		},
+		{
+			"sections_dept": "gpp",
+			"sections_pass": 25,
+			"sections_title": "public managemnt"
+		},
+		{
+			"sections_dept": "grek",
+			"sections_pass": 5,
+			"sections_title": "2yr anc greek i"
+		},
+		{
+			"sections_dept": "grek",
+			"sections_pass": 7,
+			"sections_title": "int anc grek prs"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 43,
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 67,
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 32,
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 44,
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 36,
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 28,
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_dept": "hebr",
+			"sections_pass": 5,
+			"sections_title": "intmd bib hebr 1"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 19,
+			"sections_title": "coast terr esyst"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 19,
+			"sections_title": "bio dyn mar-ter"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 19,
+			"sections_title": "islnd wild mgmt"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 19,
+			"sections_title": "sys resrc mgmt"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 19,
+			"sections_title": "eco-based mgmt"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 101,
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 44,
+			"sections_title": "hist of india"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 35,
+			"sections_title": "brit emp to 1850"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 35,
+			"sections_title": "early 20c brit"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 43,
+			"sections_title": "inventing canada"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 45,
+			"sections_title": "canada 1896-1945"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 59,
+			"sections_title": "us 1945 - presnt"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 37,
+			"sections_title": "eur ear mid-ages"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 37,
+			"sections_title": "renssance europe"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 38,
+			"sections_title": "us forn reltions"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 41,
+			"sections_title": "cdn crim&punish"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 13,
+			"sections_title": "laso mid ages"
+		},
+		{
+			"sections_dept": "hist",
+			"sections_pass": 8,
+			"sections_title": "ma research sem"
+		},
+		{
+			"sections_dept": "igen",
+			"sections_pass": 59,
+			"sections_title": "tech entreprenr"
+		},
+		{
+			"sections_dept": "igen",
+			"sections_pass": 30,
+			"sections_title": "pipeline eng"
+		},
+		{
+			"sections_dept": "isci",
+			"sections_pass": 23,
+			"sections_title": "ethical iss scie"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 25,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 29,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 32,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 28,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 33,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 30,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 30,
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 23,
+			"sections_title": "2nd-year ital i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 28,
+			"sections_title": "2nd-year ital i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 20,
+			"sections_title": "3rd year ital i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 4,
+			"sections_title": "advanced ital i"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_pass": 33,
+			"sections_title": "intr ital cult i"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_pass": 31,
+			"sections_title": "italian fascism"
+		},
+		{
+			"sections_dept": "itst",
+			"sections_pass": 36,
+			"sections_title": "cinema: neoreal"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_pass": 21,
+			"sections_title": "begin japn ib"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_pass": 27,
+			"sections_title": "begin japn ib"
+		},
+		{
+			"sections_dept": "japn",
+			"sections_pass": 29,
+			"sections_title": "begin japn ib"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 41,
+			"sections_title": "active health"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 39,
+			"sections_title": "active health"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 39,
+			"sections_title": "active health"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 57,
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 54,
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 55,
+			"sections_title": "spt, peace, cnfl"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 137,
+			"sections_title": "fndtns coaching"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 31,
+			"sections_title": "nrmscl intg hm m"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 33,
+			"sections_title": "nrmscl intg hm m"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 28,
+			"sections_title": "nrmscl intg hm m"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 34,
+			"sections_title": "nrmscl intg hm m"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 55,
+			"sections_title": "intclt hlth&phys"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 6,
+			"sections_title": "spec tpcs kin"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 15,
+			"sections_title": "bioenrgtc ph act"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 9,
+			"sections_title": "prfrmnc planning"
+		},
+		{
+			"sections_dept": "korn",
+			"sections_pass": 19,
+			"sections_title": "read:korn tpcs 1"
+		},
+		{
+			"sections_dept": "lais",
+			"sections_pass": 6,
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 35,
+			"sections_title": "site analys 2"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 13,
+			"sections_title": "la dsgn std i"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 11,
+			"sections_title": "la dsn std iv"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 11,
+			"sections_title": "la dsn std iv"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 8,
+			"sections_title": "la dsn std iv"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 5,
+			"sections_title": "la dsn std iv"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 4,
+			"sections_title": "la dsn std v"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 4,
+			"sections_title": "la dsn std v"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 7,
+			"sections_title": "la dsn std v"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 31,
+			"sections_title": "larc history"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 18,
+			"sections_title": "research methods"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 26,
+			"sections_title": "landscp tech ii"
+		},
+		{
+			"sections_dept": "larc",
+			"sections_pass": 8,
+			"sections_title": "site analys&plan"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_pass": 28,
+			"sections_title": "1yr latin i"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_pass": 24,
+			"sections_title": "1yr latin i"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_pass": 23,
+			"sections_title": "1yr latin i"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_pass": 8,
+			"sections_title": "2yr latin i"
+		},
+		{
+			"sections_dept": "latn",
+			"sections_pass": 18,
+			"sections_title": "2yr latin i"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_pass": 280,
+			"sections_title": "in land food com"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_pass": 47,
+			"sections_title": "in land food com"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_pass": 28,
+			"sections_title": "schol writ&argue"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_pass": 26,
+			"sections_title": "lnd,fod&comm i"
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_pass": 141,
+			"sections_title": "land food comm 2"
+		},
+		{
+			"sections_dept": "libe",
+			"sections_pass": 30,
+			"sections_title": "select libr res"
+		},
+		{
+			"sections_dept": "libe",
+			"sections_pass": 29,
+			"sections_title": "select libr res"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 24,
+			"sections_title": "info org mgmt"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 45,
+			"sections_title": "human-infrmation"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 43,
+			"sections_title": "meths of resrch"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 43,
+			"sections_title": "info practices"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 46,
+			"sections_title": "resdesc knoworg"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 19,
+			"sections_title": "catlg & class"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 8,
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 13,
+			"sections_title": "instructnl role"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 13,
+			"sections_title": "database design"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 21,
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 8,
+			"sections_title": "preservation"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 4,
+			"sections_title": "directed study"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 170,
+			"sections_title": "intr lang&ling"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 169,
+			"sections_title": "intr lang&ling"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 98,
+			"sections_title": "lang acquisition"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 54,
+			"sections_title": "stdy phonology"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 24,
+			"sections_title": "acq syntax"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 5,
+			"sections_title": "phon thry&anl"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 13,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 11,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 13,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 12,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 11,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 13,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 3,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 15,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 10,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 14,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 9,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 9,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 16,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 11,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 11,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 14,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 13,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 12,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 9,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 12,
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 30,
+			"sections_title": "images in texts"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 29,
+			"sections_title": "soc proc incl/ex"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 27,
+			"sections_title": "lang communites"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 19,
+			"sections_title": "lang communites"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 20,
+			"sections_title": "trans globe soc"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 18,
+			"sections_title": "world englishes"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 6,
+			"sections_title": "world englishes"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 39,
+			"sections_title": "intr tch ch lit"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 37,
+			"sections_title": "disc lit int-sec"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 30,
+			"sections_title": "sch lrc prog"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 7,
+			"sections_title": "2nd lang assess: c&e app"
+		},
+		{
+			"sections_dept": "lled",
+			"sections_pass": 10,
+			"sections_title": "thr lng&lit rsrc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 144,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 184,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 107,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 313,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 101,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 111,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 84,
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 137,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 65,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 91,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 116,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 66,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 146,
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 173,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 104,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 78,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 70,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 96,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 88,
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 27,
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 173,
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 70,
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 78,
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 165,
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 98,
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 81,
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 118,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 119,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 91,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 120,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 115,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 128,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 108,
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 20,
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 42,
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 54,
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 88,
+			"sections_title": "mltvar&vctr calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 199,
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 163,
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 154,
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 147,
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 53,
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 54,
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 41,
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 182,
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 31,
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 70,
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 60,
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 51,
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 52,
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 39,
+			"sections_title": "real variabls i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 34,
+			"sections_title": "real variabls i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 29,
+			"sections_title": "num mthds dff eq"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 9,
+			"sections_title": "var & aprx mtds"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 18,
+			"sections_title": "probability"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 18,
+			"sections_title": "real analysis i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "flds&galois thry"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 6,
+			"sections_title": "intr mod diff ge"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 14,
+			"sections_title": "number theory"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 7,
+			"sections_title": "complex analysis"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "asymp&prtb mthds"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 6,
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "meas thry&integr"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "complex analy"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 4,
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 6,
+			"sections_title": "probability i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 8,
+			"sections_title": "mthds asymp anal"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_pass": 11,
+			"sections_title": "humn genom&genet"
+		},
+		{
+			"sections_dept": "medg",
+			"sections_pass": 24,
+			"sections_title": "adv hum mole gen"
+		},
+		{
+			"sections_dept": "micb",
+			"sections_pass": 27,
+			"sections_title": "food microbi lab"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 21,
+			"sections_title": "birth meaning"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 20,
+			"sections_title": "appl hlth serv"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 18,
+			"sections_title": "ethics mtrnycare"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 19,
+			"sections_title": "clinical skills"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 84,
+			"sections_title": "eng econ"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 60,
+			"sections_title": "rock mech"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 29,
+			"sections_title": "ind auto rob"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 10,
+			"sections_title": "coal prep tech"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 9,
+			"sections_title": "env tech iss"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 10,
+			"sections_title": "mdl indstrl syst"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 4,
+			"sections_title": "eng proj"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 4,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_pass": 45,
+			"sections_title": "coat&surf modfcn"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_pass": 46,
+			"sections_title": "monitor & optimz"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_pass": 29,
+			"sections_title": "weld & join mtrl"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 59,
+			"sections_title": "prnc muscl form"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 54,
+			"sections_title": "cmp&anl ap p ton"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 32,
+			"sections_title": "instrumentation"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 15,
+			"sections_title": "conducting"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 148,
+			"sections_title": "hist poplr music"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 9,
+			"sections_title": "int ethnmuscolgy"
+		},
+		{
+			"sections_dept": "nest",
+			"sections_pass": 28,
+			"sections_title": "neast&egypt arch"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 119,
+			"sections_title": "fndtn nurs pract"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 120,
+			"sections_title": "adults & famlies"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 19,
+			"sections_title": "childbring women"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 20,
+			"sections_title": "childbring women"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 19,
+			"sections_title": "infnt chld youth"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 19,
+			"sections_title": "infnt chld youth"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 20,
+			"sections_title": "adlt mntl illnss"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 19,
+			"sections_title": "adlt mntl illnss"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 20,
+			"sections_title": "commnty & popltn"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 19,
+			"sections_title": "commnty & popltn"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 41,
+			"sections_title": "adlts & families"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 118,
+			"sections_title": "practice praxis"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 118,
+			"sections_title": "ldrshp ethcs pol"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 29,
+			"sections_title": "rsrch evidence"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 15,
+			"sections_title": "pthophysiol proc"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 15,
+			"sections_title": "adv hlth assess"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 28,
+			"sections_title": "fndtns nurs prac"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 23,
+			"sections_title": "quant mtds&anyl"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 15,
+			"sections_title": "eth&profl issues"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 96,
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 208,
+			"sections_title": "rnl bs drug ther"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 120,
+			"sections_title": "admn of injectns"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 43,
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 16,
+			"sections_title": "envirn&cell toxi"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 16,
+			"sections_title": "phar care aborig"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 216,
+			"sections_title": "nat hlth prodcts"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 121,
+			"sections_title": "cs phar sci iv"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 10,
+			"sections_title": "adv conc pharmac"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_pass": 105,
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_pass": 100,
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_dept": "phil",
+			"sections_pass": 4,
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_dept": "phth",
+			"sections_pass": 80,
+			"sections_title": "path for pt 1"
+		},
+		{
+			"sections_dept": "phth",
+			"sections_pass": 80,
+			"sections_title": "exercise move i"
+		},
+		{
+			"sections_dept": "phth",
+			"sections_pass": 78,
+			"sections_title": "path for pt 3"
+		},
+		{
+			"sections_dept": "phth",
+			"sections_pass": 78,
+			"sections_title": "clin prac iva"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 96,
+			"sections_title": "enrich physics 1"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 43,
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 47,
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 233,
+			"sections_title": "intr phys eng i"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 225,
+			"sections_title": "intr phys eng i"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 230,
+			"sections_title": "intr phys eng i"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 145,
+			"sections_title": "elec & magnetism"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 42,
+			"sections_title": "energy & climate"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 58,
+			"sections_title": "comp phys"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 16,
+			"sections_title": "cond matter i"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 10,
+			"sections_title": "sp rlvty & elcmg"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 18,
+			"sections_title": "stat mechanics"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 4,
+			"sections_title": "rdiothrpy phy i"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 8,
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 31,
+			"sections_title": "env & sus concep"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 15,
+			"sections_title": "urb dsgn thr&met"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 30,
+			"sections_title": "quantat skills"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 31,
+			"sections_title": "plan pract mthds"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 25,
+			"sections_title": "sem r prpty dv&p"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 57,
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 50,
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 187,
+			"sections_title": "cur poli thought"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 189,
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 61,
+			"sections_title": "federalsm canada"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 68,
+			"sections_title": "european integrt"
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 71,
+			"sections_title": ""
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 70,
+			"sections_title": ""
+		},
+		{
+			"sections_dept": "poli",
+			"sections_pass": 50,
+			"sections_title": "nuc weapns cntrl"
+		}
+	]
+}

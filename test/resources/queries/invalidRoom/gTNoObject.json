@@ -1,0 +1,19 @@
+{
+	"title": "GTNoObject",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": 100
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

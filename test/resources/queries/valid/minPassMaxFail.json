@@ -1,0 +1,93 @@
+{
+	"title": "MinPassMaxFail",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"minPass",
+				"maxFail"
+			],
+			"ORDER": "sections_year"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"minPass": {
+						"MIN": "sections_pass"
+					}
+				},
+				{
+					"maxFail": {
+						"MAX": "sections_fail"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"minPass": 1,
+			"maxFail": 5
+		},
+		{
+			"sections_year": 2007,
+			"minPass": 1,
+			"maxFail": 0
+		},
+		{
+			"sections_year": 2008,
+			"minPass": 1,
+			"maxFail": 1
+		},
+		{
+			"sections_year": 2009,
+			"minPass": 1,
+			"maxFail": 5
+		},
+		{
+			"sections_year": 2010,
+			"minPass": 1,
+			"maxFail": 0
+		},
+		{
+			"sections_year": 2011,
+			"minPass": 1,
+			"maxFail": 0
+		},
+		{
+			"sections_year": 2012,
+			"minPass": 1,
+			"maxFail": 1
+		},
+		{
+			"sections_year": 2013,
+			"minPass": 1,
+			"maxFail": 1
+		},
+		{
+			"sections_year": 2014,
+			"minPass": 1,
+			"maxFail": 1
+		},
+		{
+			"sections_year": 2015,
+			"minPass": 1,
+			"maxFail": 2
+		},
+		{
+			"sections_year": 2016,
+			"minPass": 3,
+			"maxFail": 1
+		}
+	]
+}

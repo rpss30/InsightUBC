@@ -1,0 +1,39 @@
+{
+	"title": "AvgSeatsInBuildingsWithHall",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_fullname": "*Hall*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_fullname",
+				"averageSeats"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_fullname"
+			],
+			"APPLY": [
+				{
+					"averageSeats": {
+						"AVG": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_fullname": "Allard Hall (LAW)",
+			"averageSeats": 45.6
+		},
+		{
+			"rooms_fullname": "Brock Hall Annex",
+			"averageSeats": 47
+		}
+	]
+}

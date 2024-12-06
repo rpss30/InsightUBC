@@ -1,0 +1,297 @@
+{
+	"title": "using underscore",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 96.1
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "_abc"
+							}
+						},
+						{
+							"NOT": {
+								"IS": {
+									"sections_title": "inst adul educ"
+								}
+							}
+						},
+						{
+							"LT": {
+								"sections_year": 2010
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_pass",
+				"sections_fail",
+				"sections_audit",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_pass": 2,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "bmeg"
+		},
+		{
+			"sections_pass": 2,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "bmeg"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 1,
+			"sections_dept": "cnps"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 1,
+			"sections_dept": "cnps"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "cpsc"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "cpsc"
+		},
+		{
+			"sections_pass": 2,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 3,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 3,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 2,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "crwr"
+		},
+		{
+			"sections_pass": 3,
+			"sections_fail": 0,
+			"sections_audit": 2,
+			"sections_dept": "econ"
+		},
+		{
+			"sections_pass": 3,
+			"sections_fail": 0,
+			"sections_audit": 2,
+			"sections_dept": "econ"
+		},
+		{
+			"sections_pass": 19,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "edcp"
+		},
+		{
+			"sections_pass": 19,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "edcp"
+		},
+		{
+			"sections_pass": 7,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "epse"
+		},
+		{
+			"sections_pass": 9,
+			"sections_fail": 0,
+			"sections_audit": 9,
+			"sections_dept": "epse"
+		},
+		{
+			"sections_pass": 9,
+			"sections_fail": 0,
+			"sections_audit": 9,
+			"sections_dept": "epse"
+		},
+		{
+			"sections_pass": 5,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "kin"
+		},
+		{
+			"sections_pass": 7,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "kin"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "kin"
+		},
+		{
+			"sections_pass": 6,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "math"
+		},
+		{
+			"sections_pass": 6,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "math"
+		},
+		{
+			"sections_pass": 6,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "mtrl"
+		},
+		{
+			"sections_pass": 6,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "mtrl"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "mtrl"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 7,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 7,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "musc"
+		},
+		{
+			"sections_pass": 9,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "nurs"
+		},
+		{
+			"sections_pass": 9,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "nurs"
+		},
+		{
+			"sections_pass": 1,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "obst"
+		},
+		{
+			"sections_pass": 8,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "psyc"
+		},
+		{
+			"sections_pass": 8,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "psyc"
+		},
+		{
+			"sections_pass": 6,
+			"sections_fail": 0,
+			"sections_audit": 4,
+			"sections_dept": "rhsc"
+		},
+		{
+			"sections_pass": 4,
+			"sections_fail": 0,
+			"sections_audit": 0,
+			"sections_dept": "sowk"
+		}
+	]
+}

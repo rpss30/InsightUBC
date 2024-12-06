@@ -1,0 +1,880 @@
+{
+	"title": "uses EQ to give result",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "apsc",
+			"sections_pass": 17,
+			"sections_title": "eng mtls lab"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 1,
+			"sections_title": "masa thesis"
+		},
+		{
+			"sections_dept": "arch",
+			"sections_pass": 1,
+			"sections_title": "masa thesis"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 6,
+			"sections_title": "arch rsrch&schlr"
+		},
+		{
+			"sections_dept": "arst",
+			"sections_pass": 6,
+			"sections_title": "arch rsrch&schlr"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 4,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 4,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 2,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 3,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "arth",
+			"sections_pass": 3,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 12,
+			"sections_title": "hearing sci ii"
+		},
+		{
+			"sections_dept": "audi",
+			"sections_pass": 12,
+			"sections_title": "hearing sci ii"
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_pass": 1,
+			"sections_title": "m.a. sc. thesis"
+		},
+		{
+			"sections_dept": "ccst",
+			"sections_pass": 1,
+			"sections_title": "grad prac"
+		},
+		{
+			"sections_dept": "ceen",
+			"sections_pass": 11,
+			"sections_title": "project & report"
+		},
+		{
+			"sections_dept": "cell",
+			"sections_pass": 10,
+			"sections_title": "tpc cytosk&cl mo"
+		},
+		{
+			"sections_dept": "cell",
+			"sections_pass": 10,
+			"sections_title": "tpc cytosk&cl mo"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 4,
+			"sections_title": "stat'l mech chem"
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 4,
+			"sections_title": "stat'l mech chem"
+		},
+		{
+			"sections_dept": "chil",
+			"sections_pass": 2,
+			"sections_title": "child's lit"
+		},
+		{
+			"sections_dept": "chil",
+			"sections_pass": 1,
+			"sections_title": "child's lit"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 5,
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 5,
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 10,
+			"sections_title": "adv coastal eng"
+		},
+		{
+			"sections_dept": "civl",
+			"sections_pass": 10,
+			"sections_title": "adv coastal eng"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 6,
+			"sections_title": "family counsl ii"
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_pass": 6,
+			"sections_title": "family counsl ii"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 1,
+			"sections_title": "thesis"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 1,
+			"sections_title": "thesis"
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_pass": 1,
+			"sections_title": "thesis"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "prosth lit rv i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "prosth lit rv i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "prs pln&outc i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "prs pln&outc i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 23,
+			"sections_title": "oral pathology"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 23,
+			"sections_title": "oral pathology"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "biomec cr-fac i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "biomec cr-fac i"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 8,
+			"sections_title": "implant therapy"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 1,
+			"sections_title": "m.sc. thesis"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 1,
+			"sections_title": "m.sc. thesis"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 1,
+			"sections_title": "masters thesis"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "clin endo yr 3"
+		},
+		{
+			"sections_dept": "dent",
+			"sections_pass": 4,
+			"sections_title": "clin endo yr 3"
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_pass": 18,
+			"sections_title": "trends & topics"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 5,
+			"sections_title": "hist mod europe"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 5,
+			"sections_title": "hist mod europe"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 14,
+			"sections_title": "soc & econ measu"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 14,
+			"sections_title": "soc & econ measu"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 13,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 13,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 13,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 7,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 13,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 14,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "econ",
+			"sections_pass": 27,
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_pass": 20,
+			"sections_title": "curr chng&imple"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 22,
+			"sections_title": "rsc trd edu admn"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 15,
+			"sections_title": "adu edu pro"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 15,
+			"sections_title": "adu edu pro"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 12,
+			"sections_title": "ldrshp educ org"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 39,
+			"sections_title": "ldrshp educ org"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 4,
+			"sections_title": "tcher union educ"
+		},
+		{
+			"sections_dept": "edst",
+			"sections_pass": 4,
+			"sections_title": "tcher union educ"
+		},
+		{
+			"sections_dept": "educ",
+			"sections_pass": 7,
+			"sections_title": "res mthd in educ"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 4,
+			"sections_title": "nanophoton fab"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 4,
+			"sections_title": "nanophoton fab"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 3,
+			"sections_title": "eng report"
+		},
+		{
+			"sections_dept": "eece",
+			"sections_pass": 1,
+			"sections_title": "eng report"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 23,
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 4,
+			"sections_title": "mech nat defrmtn"
+		},
+		{
+			"sections_dept": "eosc",
+			"sections_pass": 4,
+			"sections_title": "mech nat defrmtn"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 11,
+			"sections_title": "tech for vis imp"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 11,
+			"sections_title": "tech for vis imp"
+		},
+		{
+			"sections_dept": "epse",
+			"sections_pass": 5,
+			"sections_title": "curric as&interv"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 4,
+			"sections_title": "plnt molec biol"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 4,
+			"sections_title": "plnt molec biol"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 5,
+			"sections_title": "tech comm skills"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 15,
+			"sections_title": "tec comm skls ii"
+		},
+		{
+			"sections_dept": "frst",
+			"sections_pass": 15,
+			"sections_title": "tec comm skls ii"
+		},
+		{
+			"sections_dept": "geog",
+			"sections_pass": 1,
+			"sections_title": "masters thesis"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 7,
+			"sections_title": "conv german ii"
+		},
+		{
+			"sections_dept": "germ",
+			"sections_pass": 7,
+			"sections_title": "conv german ii"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 2,
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "grsj",
+			"sections_pass": 2,
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 21,
+			"sections_title": "frst ntns rsorcs"
+		},
+		{
+			"sections_dept": "hgse",
+			"sections_pass": 21,
+			"sections_title": "frst ntns rsorcs"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 4,
+			"sections_title": "advanced ital i"
+		},
+		{
+			"sections_dept": "ital",
+			"sections_pass": 4,
+			"sections_title": "advanced ital i"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 15,
+			"sections_title": "bioenrgtc ph act"
+		},
+		{
+			"sections_dept": "kin",
+			"sections_pass": 15,
+			"sections_title": "bioenrgtc ph act"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 2,
+			"sections_title": "research collbrt"
+		},
+		{
+			"sections_dept": "libr",
+			"sections_pass": 3,
+			"sections_title": "research collbrt"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 7,
+			"sections_title": "fld mthd ling ii"
+		},
+		{
+			"sections_dept": "ling",
+			"sections_pass": 7,
+			"sections_title": "fld mthd ling ii"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 4,
+			"sections_title": "tpcs algebra"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 4,
+			"sections_title": "tpcs algebra"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "prt diff equa i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 5,
+			"sections_title": "prt diff equa i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 4,
+			"sections_title": "combinatorial op"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 4,
+			"sections_title": "combinatorial op"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 9,
+			"sections_title": "algb geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 9,
+			"sections_title": "algb geometry i"
+		},
+		{
+			"sections_dept": "math",
+			"sections_pass": 1,
+			"sections_title": "msc major essay"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 8,
+			"sections_title": "mch tool str&vib"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 8,
+			"sections_title": "mch tool str&vib"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 1,
+			"sections_title": "research seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 5,
+			"sections_title": "research seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 3,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 4,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 7,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 3,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mech",
+			"sections_pass": 1,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_pass": 4,
+			"sections_title": "research seminar"
+		},
+		{
+			"sections_dept": "medi",
+			"sections_pass": 6,
+			"sections_title": "m.sc. thesis"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 10,
+			"sections_title": "comp thry&prctc"
+		},
+		{
+			"sections_dept": "midw",
+			"sections_pass": 10,
+			"sections_title": "comp thry&prctc"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 1,
+			"sections_title": "eng proj"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mine",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_pass": 2,
+			"sections_title": "masters thesis"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 6,
+			"sections_title": "ubc singers"
+		},
+		{
+			"sections_dept": "musc",
+			"sections_pass": 6,
+			"sections_title": "ubc singers"
+		},
+		{
+			"sections_dept": "nrsc",
+			"sections_pass": 2,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "nrsc",
+			"sections_pass": 2,
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 14,
+			"sections_title": "cl pro prim care"
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_pass": 14,
+			"sections_title": "cl pro prim care"
+		},
+		{
+			"sections_dept": "obst",
+			"sections_pass": 1,
+			"sections_title": "m.sc. thesis"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 4,
+			"sections_title": "clk in lab medic"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 12,
+			"sections_title": "clk in lab medic"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 3,
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 3,
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 2,
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 3,
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_dept": "path",
+			"sections_pass": 1,
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 1,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 1,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 1,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 1,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 1,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 2,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "pcth",
+			"sections_pass": 2,
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 25,
+			"sections_title": "peer teaching 2"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 25,
+			"sections_title": "peer teaching 2"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 1,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 2,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 3,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "phar",
+			"sections_pass": 4,
+			"sections_title": "seminar"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 12,
+			"sections_title": "quantum mech ii"
+		},
+		{
+			"sections_dept": "phys",
+			"sections_pass": 12,
+			"sections_title": "quantum mech ii"
+		},
+		{
+			"sections_dept": "plan",
+			"sections_pass": 4,
+			"sections_title": "phd colloquium"
+		},
+		{
+			"sections_dept": "port",
+			"sections_pass": 4,
+			"sections_title": "elementary port"
+		},
+		{
+			"sections_dept": "port",
+			"sections_pass": 4,
+			"sections_title": "elementary port"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_pass": 5,
+			"sections_title": "cog/beh interven"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_pass": 5,
+			"sections_title": "cog/beh interven"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_pass": 4,
+			"sections_title": "cog/beh interven"
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_pass": 4,
+			"sections_title": "cog/beh interven"
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_pass": 9,
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_pass": 4,
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sans",
+			"sections_pass": 4,
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_pass": 13,
+			"sections_title": "adv int sem in sw th"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_pass": 7,
+			"sections_title": "soc work doc sem"
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_pass": 7,
+			"sections_title": "soc work doc sem"
+		},
+		{
+			"sections_dept": "sts",
+			"sections_pass": 5,
+			"sections_title": "sts mstrs colloq"
+		},
+		{
+			"sections_dept": "sts",
+			"sections_pass": 5,
+			"sections_title": "sts mstrs colloq"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_pass": 4,
+			"sections_title": "bibliog & resrch"
+		},
+		{
+			"sections_dept": "thtr",
+			"sections_pass": 4,
+			"sections_title": "bibliog & resrch"
+		}
+	]
+}

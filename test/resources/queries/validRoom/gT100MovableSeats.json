@@ -1,0 +1,116 @@
+{
+	"title": "GT100MovableSeats",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"rooms_seats": 100
+					}
+				},
+				{
+					"IS": {
+						"rooms_furniture": "*Movable*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_seats"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "CHBE",
+			"rooms_seats": 200
+		},
+		{
+			"rooms_shortname": "FRDM",
+			"rooms_seats": 160
+		},
+		{
+			"rooms_shortname": "ANGU",
+			"rooms_seats": 260
+		},
+		{
+			"rooms_shortname": "DMP",
+			"rooms_seats": 120
+		},
+		{
+			"rooms_shortname": "DMP",
+			"rooms_seats": 160
+		},
+		{
+			"rooms_shortname": "IBLC",
+			"rooms_seats": 112
+		},
+		{
+			"rooms_shortname": "LSC",
+			"rooms_seats": 350
+		},
+		{
+			"rooms_shortname": "LSC",
+			"rooms_seats": 350
+		},
+		{
+			"rooms_shortname": "LSC",
+			"rooms_seats": 125
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_seats": 236
+		},
+		{
+			"rooms_shortname": "PHRM",
+			"rooms_seats": 167
+		},
+		{
+			"rooms_shortname": "OSBO",
+			"rooms_seats": 442
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_seats": 299
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_seats": 299
+		},
+		{
+			"rooms_shortname": "SRC",
+			"rooms_seats": 299
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_seats": 187
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_seats": 188
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_seats": 190
+		},
+		{
+			"rooms_shortname": "SWNG",
+			"rooms_seats": 190
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_seats": 120
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_seats": 120
+		},
+		{
+			"rooms_shortname": "WOOD",
+			"rooms_seats": 120
+		}
+	]
+}

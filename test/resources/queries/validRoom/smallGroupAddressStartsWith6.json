@@ -1,0 +1,149 @@
+{
+	"title": "SmallGroupAddressStartsWith6",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_type": "Small Group"
+					}
+				},
+				{
+					"IS": {
+						"rooms_address": "6*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_name",
+				"rooms_address",
+				"rooms_type"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_name": "ANSO_202",
+			"rooms_address": "6303 North West Marine Drive",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "ANSO_203",
+			"rooms_address": "6303 North West Marine Drive",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "ANSO_205",
+			"rooms_address": "6303 North West Marine Drive",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "BIOL_1503",
+			"rooms_address": "6270 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "BIOL_2519",
+			"rooms_address": "6270 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "CEME_1206",
+			"rooms_address": "6250 Applied Science Lane",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "CEME_1210",
+			"rooms_address": "6250 Applied Science Lane",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "FORW_317",
+			"rooms_address": "6350 Stores Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "FORW_519",
+			"rooms_address": "6350 Stores Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "LASR_211",
+			"rooms_address": "6333 Memorial Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "LASR_5C",
+			"rooms_address": "6333 Memorial Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "HENN_301",
+			"rooms_address": "6224 Agricultural Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "HENN_302",
+			"rooms_address": "6224 Agricultural Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "HENN_304",
+			"rooms_address": "6224 Agricultural Road",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "DMP_101",
+			"rooms_address": "6245 Agronomy Road V6T 1Z4",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "DMP_201",
+			"rooms_address": "6245 Agronomy Road V6T 1Z4",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "PCOH_1008",
+			"rooms_address": "6445 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "PCOH_1009",
+			"rooms_address": "6445 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "PCOH_1011",
+			"rooms_address": "6445 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "PCOH_1215",
+			"rooms_address": "6445 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "PCOH_1302",
+			"rooms_address": "6445 University Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "OSBO_203A",
+			"rooms_address": "6108 Thunderbird Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "OSBO_203B",
+			"rooms_address": "6108 Thunderbird Boulevard",
+			"rooms_type": "Small Group"
+		},
+		{
+			"rooms_name": "UCLL_101",
+			"rooms_address": "6331 Crescent Road V6T 1Z1",
+			"rooms_type": "Small Group"
+		}
+	]
+}

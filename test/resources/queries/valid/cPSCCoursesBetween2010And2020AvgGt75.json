@@ -1,0 +1,1174 @@
+{
+	"title": "CPSC courses between 2010 and 2020 avg gt 75",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "cpsc"
+					}
+				},
+				{
+					"LT": {
+						"sections_year": 2020
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2010
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 75
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"sections_year",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 85.11,
+			"sections_year": 2014,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 77.43,
+			"sections_year": 2012,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 82.44,
+			"sections_year": 2013,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 75.89,
+			"sections_year": 2013,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 76.94,
+			"sections_year": 2011,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 77.69,
+			"sections_year": 2011,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 85.46,
+			"sections_year": 2011,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 75.06,
+			"sections_year": 2015,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 84.91,
+			"sections_year": 2015,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 77.11,
+			"sections_year": 2011,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 82.43,
+			"sections_year": 2011,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 75.81,
+			"sections_year": 2014,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 82.32,
+			"sections_year": 2012,
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_avg": 80.64,
+			"sections_year": 2014,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 77.2,
+			"sections_year": 2014,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 83.41,
+			"sections_year": 2014,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 76.12,
+			"sections_year": 2013,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 76.43,
+			"sections_year": 2013,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 82.2,
+			"sections_year": 2013,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 79.41,
+			"sections_year": 2013,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 76.05,
+			"sections_year": 2011,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 75.34,
+			"sections_year": 2011,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 77.22,
+			"sections_year": 2011,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 79.83,
+			"sections_year": 2011,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 82.63,
+			"sections_year": 2015,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 76.65,
+			"sections_year": 2015,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 79,
+			"sections_year": 2015,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 76.46,
+			"sections_year": 2011,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 84.56,
+			"sections_year": 2014,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 77.06,
+			"sections_year": 2012,
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_avg": 75.33,
+			"sections_year": 2014,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 76.32,
+			"sections_year": 2014,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 86.15,
+			"sections_year": 2014,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 75.17,
+			"sections_year": 2013,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 75.01,
+			"sections_year": 2013,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 81,
+			"sections_year": 2013,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 75.81,
+			"sections_year": 2013,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 81.5,
+			"sections_year": 2011,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 78.98,
+			"sections_year": 2015,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 77.64,
+			"sections_year": 2011,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 78.79,
+			"sections_year": 2014,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 76.04,
+			"sections_year": 2012,
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_avg": 75.68,
+			"sections_year": 2014,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 81.76,
+			"sections_year": 2013,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 79.46,
+			"sections_year": 2013,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 75.25,
+			"sections_year": 2015,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 76.61,
+			"sections_year": 2011,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 79.98,
+			"sections_year": 2014,
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_avg": 82.45,
+			"sections_year": 2014,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 76.6,
+			"sections_year": 2014,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 76.26,
+			"sections_year": 2012,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 77.78,
+			"sections_year": 2013,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 86.47,
+			"sections_year": 2013,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 75.22,
+			"sections_year": 2011,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 85.87,
+			"sections_year": 2014,
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_avg": 75.82,
+			"sections_year": 2014,
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_avg": 75.2,
+			"sections_year": 2012,
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_avg": 82.39,
+			"sections_year": 2014,
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_avg": 80.09,
+			"sections_year": 2013,
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_avg": 86.34,
+			"sections_year": 2011,
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_avg": 82.99,
+			"sections_year": 2015,
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_avg": 82.05,
+			"sections_year": 2012,
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_avg": 79.46,
+			"sections_year": 2014,
+			"sections_title": "num comp alg prb"
+		},
+		{
+			"sections_avg": 78.18,
+			"sections_year": 2013,
+			"sections_title": "num comp alg prb"
+		},
+		{
+			"sections_avg": 79.29,
+			"sections_year": 2015,
+			"sections_title": "num comp alg prb"
+		},
+		{
+			"sections_avg": 77.95,
+			"sections_year": 2012,
+			"sections_title": "num comp alg prb"
+		},
+		{
+			"sections_avg": 77.4,
+			"sections_year": 2014,
+			"sections_title": "num approx/discr"
+		},
+		{
+			"sections_avg": 78.75,
+			"sections_year": 2014,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 82.43,
+			"sections_year": 2014,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 81.8,
+			"sections_year": 2012,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 75.86,
+			"sections_year": 2013,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 85.5,
+			"sections_year": 2013,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 78.4,
+			"sections_year": 2011,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 79.56,
+			"sections_year": 2015,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 76.43,
+			"sections_year": 2014,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 79.56,
+			"sections_year": 2012,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 77.01,
+			"sections_year": 2012,
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_avg": 78.69,
+			"sections_year": 2014,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 80.35,
+			"sections_year": 2014,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 81.17,
+			"sections_year": 2016,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 80.34,
+			"sections_year": 2012,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 80.24,
+			"sections_year": 2013,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 77.78,
+			"sections_year": 2011,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 76.31,
+			"sections_year": 2011,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 77.13,
+			"sections_year": 2015,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 81.18,
+			"sections_year": 2015,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 79.12,
+			"sections_year": 2014,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 78.22,
+			"sections_year": 2012,
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_avg": 80.15,
+			"sections_year": 2014,
+			"sections_title": "programmng langs"
+		},
+		{
+			"sections_avg": 78.56,
+			"sections_year": 2013,
+			"sections_title": "programmng langs"
+		},
+		{
+			"sections_avg": 84.39,
+			"sections_year": 2015,
+			"sections_title": "programmng langs"
+		},
+		{
+			"sections_avg": 78.24,
+			"sections_year": 2012,
+			"sections_title": "programmng langs"
+		},
+		{
+			"sections_avg": 80.52,
+			"sections_year": 2014,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 76.52,
+			"sections_year": 2016,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 84.66,
+			"sections_year": 2013,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 76.84,
+			"sections_year": 2011,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 76.93,
+			"sections_year": 2015,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 81.9,
+			"sections_year": 2012,
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_avg": 82.27,
+			"sections_year": 2012,
+			"sections_title": "comp hard&os"
+		},
+		{
+			"sections_avg": 75.57,
+			"sections_year": 2013,
+			"sections_title": "comp hard&os"
+		},
+		{
+			"sections_avg": 75.15,
+			"sections_year": 2013,
+			"sections_title": "comp hard&os"
+		},
+		{
+			"sections_avg": 76.77,
+			"sections_year": 2011,
+			"sections_title": "comp hard&os"
+		},
+		{
+			"sections_avg": 76.17,
+			"sections_year": 2014,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 77.81,
+			"sections_year": 2013,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 77.28,
+			"sections_year": 2013,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 82.58,
+			"sections_year": 2011,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 79.24,
+			"sections_year": 2011,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 78.7,
+			"sections_year": 2015,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 76.46,
+			"sections_year": 2015,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 79.02,
+			"sections_year": 2012,
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_avg": 75.56,
+			"sections_year": 2012,
+			"sections_title": "internet comp"
+		},
+		{
+			"sections_avg": 85.72,
+			"sections_year": 2014,
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_avg": 85.59,
+			"sections_year": 2013,
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_avg": 88.39,
+			"sections_year": 2011,
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_avg": 87.93,
+			"sections_year": 2015,
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_avg": 83.15,
+			"sections_year": 2012,
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_avg": 78.29,
+			"sections_year": 2013,
+			"sections_title": "artificial intel"
+		},
+		{
+			"sections_avg": 77.84,
+			"sections_year": 2011,
+			"sections_title": "artificial intel"
+		},
+		{
+			"sections_avg": 75.23,
+			"sections_year": 2015,
+			"sections_title": "artificial intel"
+		},
+		{
+			"sections_avg": 82.66,
+			"sections_year": 2016,
+			"sections_title": "machine lrn mine"
+		},
+		{
+			"sections_avg": 77.93,
+			"sections_year": 2013,
+			"sections_title": "machine lrn mine"
+		},
+		{
+			"sections_avg": 80.29,
+			"sections_year": 2015,
+			"sections_title": "machine lrn mine"
+		},
+		{
+			"sections_avg": 81.18,
+			"sections_year": 2014,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 80.85,
+			"sections_year": 2013,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 80.24,
+			"sections_year": 2013,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 78.22,
+			"sections_year": 2011,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 78.28,
+			"sections_year": 2015,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 80.31,
+			"sections_year": 2012,
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_avg": 77.95,
+			"sections_year": 2013,
+			"sections_title": "adv rel databse"
+		},
+		{
+			"sections_avg": 81.82,
+			"sections_year": 2015,
+			"sections_title": "adv rel databse"
+		},
+		{
+			"sections_avg": 80.77,
+			"sections_year": 2015,
+			"sections_title": "adv rel databse"
+		},
+		{
+			"sections_avg": 75.68,
+			"sections_year": 2012,
+			"sections_title": "adv rel databse"
+		},
+		{
+			"sections_avg": 79.39,
+			"sections_year": 2014,
+			"sections_title": "adv software eng"
+		},
+		{
+			"sections_avg": 79.62,
+			"sections_year": 2013,
+			"sections_title": "adv software eng"
+		},
+		{
+			"sections_avg": 79,
+			"sections_year": 2015,
+			"sections_title": "adv software eng"
+		},
+		{
+			"sections_avg": 75.28,
+			"sections_year": 2012,
+			"sections_title": "adv software eng"
+		},
+		{
+			"sections_avg": 79.54,
+			"sections_year": 2014,
+			"sections_title": "compiler constrc"
+		},
+		{
+			"sections_avg": 83.94,
+			"sections_year": 2011,
+			"sections_title": "compiler constrc"
+		},
+		{
+			"sections_avg": 86,
+			"sections_year": 2015,
+			"sections_title": "compiler constrc"
+		},
+		{
+			"sections_avg": 77,
+			"sections_year": 2012,
+			"sections_title": "compiler constrc"
+		},
+		{
+			"sections_avg": 76.31,
+			"sections_year": 2014,
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_avg": 81.18,
+			"sections_year": 2015,
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_avg": 79.87,
+			"sections_year": 2013,
+			"sections_title": "parallel comput"
+		},
+		{
+			"sections_avg": 86.04,
+			"sections_year": 2015,
+			"sections_title": "parallel comput"
+		},
+		{
+			"sections_avg": 75.61,
+			"sections_year": 2012,
+			"sections_title": "parallel comput"
+		},
+		{
+			"sections_avg": 78.32,
+			"sections_year": 2014,
+			"sections_title": "adv alg dsgn&anl"
+		},
+		{
+			"sections_avg": 77.48,
+			"sections_year": 2013,
+			"sections_title": "theory comptg"
+		},
+		{
+			"sections_avg": 77.15,
+			"sections_year": 2011,
+			"sections_title": "theory comptg"
+		},
+		{
+			"sections_avg": 76.24,
+			"sections_year": 2012,
+			"sections_title": "theory comptg"
+		},
+		{
+			"sections_avg": 75.61,
+			"sections_year": 2011,
+			"sections_title": "intel systems"
+		},
+		{
+			"sections_avg": 75.91,
+			"sections_year": 2012,
+			"sections_title": "intel systems"
+		},
+		{
+			"sections_avg": 77.68,
+			"sections_year": 2014,
+			"sections_title": "computer vision"
+		},
+		{
+			"sections_avg": 79.19,
+			"sections_year": 2014,
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_avg": 79.69,
+			"sections_year": 2013,
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_avg": 79.13,
+			"sections_year": 2015,
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_avg": 77.44,
+			"sections_year": 2011,
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_avg": 76.26,
+			"sections_year": 2012,
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_avg": 79.24,
+			"sections_year": 2013,
+			"sections_title": "hmn-cp interactn"
+		},
+		{
+			"sections_avg": 78.48,
+			"sections_year": 2011,
+			"sections_title": "hmn-cp interactn"
+		},
+		{
+			"sections_avg": 77.43,
+			"sections_year": 2015,
+			"sections_title": "hmn-cp interactn"
+		},
+		{
+			"sections_avg": 82.5,
+			"sections_year": 2014,
+			"sections_title": "alg in bioin"
+		},
+		{
+			"sections_avg": 83.32,
+			"sections_year": 2013,
+			"sections_title": "alg in bioin"
+		},
+		{
+			"sections_avg": 91.25,
+			"sections_year": 2011,
+			"sections_title": "alg in bioin"
+		},
+		{
+			"sections_avg": 83.59,
+			"sections_year": 2015,
+			"sections_title": "alg in bioin"
+		},
+		{
+			"sections_avg": 93.38,
+			"sections_year": 2013,
+			"sections_title": "honours thesis"
+		},
+		{
+			"sections_avg": 93.5,
+			"sections_year": 2011,
+			"sections_title": "honours thesis"
+		},
+		{
+			"sections_avg": 90.25,
+			"sections_year": 2015,
+			"sections_title": "honours thesis"
+		},
+		{
+			"sections_avg": 92.5,
+			"sections_year": 2012,
+			"sections_title": "honours thesis"
+		},
+		{
+			"sections_avg": 92.4,
+			"sections_year": 2014,
+			"sections_title": "student seminar"
+		},
+		{
+			"sections_avg": 90.6,
+			"sections_year": 2013,
+			"sections_title": "student seminar"
+		},
+		{
+			"sections_avg": 89.64,
+			"sections_year": 2011,
+			"sections_title": "student seminar"
+		},
+		{
+			"sections_avg": 84.5,
+			"sections_year": 2015,
+			"sections_title": "student seminar"
+		},
+		{
+			"sections_avg": 78.87,
+			"sections_year": 2014,
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_avg": 86.33,
+			"sections_year": 2013,
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_avg": 83,
+			"sections_year": 2011,
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_avg": 84.85,
+			"sections_year": 2015,
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_avg": 86.22,
+			"sections_year": 2012,
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_avg": 84.67,
+			"sections_year": 2011,
+			"sections_title": "thry of automata"
+		},
+		{
+			"sections_avg": 83.8,
+			"sections_year": 2015,
+			"sections_title": "thry of automata"
+		},
+		{
+			"sections_avg": 92.75,
+			"sections_year": 2012,
+			"sections_title": "thry of automata"
+		},
+		{
+			"sections_avg": 83.32,
+			"sections_year": 2013,
+			"sections_title": "artif intell 1"
+		},
+		{
+			"sections_avg": 86.2,
+			"sections_year": 2011,
+			"sections_title": "artif intell 1"
+		},
+		{
+			"sections_avg": 83.43,
+			"sections_year": 2015,
+			"sections_title": "artif intell 1"
+		},
+		{
+			"sections_avg": 81.06,
+			"sections_year": 2012,
+			"sections_title": "artif intell 1"
+		},
+		{
+			"sections_avg": 89.47,
+			"sections_year": 2015,
+			"sections_title": "computl ling 1"
+		},
+		{
+			"sections_avg": 88.82,
+			"sections_year": 2012,
+			"sections_title": "computl ling 1"
+		},
+		{
+			"sections_avg": 91.79,
+			"sections_year": 2013,
+			"sections_title": "software eng"
+		},
+		{
+			"sections_avg": 89.17,
+			"sections_year": 2011,
+			"sections_title": "software eng"
+		},
+		{
+			"sections_avg": 89,
+			"sections_year": 2015,
+			"sections_title": "software eng"
+		},
+		{
+			"sections_avg": 84.25,
+			"sections_year": 2014,
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_avg": 88,
+			"sections_year": 2013,
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_avg": 84.75,
+			"sections_year": 2011,
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_avg": 87.2,
+			"sections_year": 2015,
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_avg": 85.9,
+			"sections_year": 2012,
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_avg": 87.64,
+			"sections_year": 2014,
+			"sections_title": "intgrt sys desgn"
+		},
+		{
+			"sections_avg": 86.71,
+			"sections_year": 2013,
+			"sections_title": "intgrt sys desgn"
+		},
+		{
+			"sections_avg": 87.58,
+			"sections_year": 2012,
+			"sections_title": "intgrt sys desgn"
+		},
+		{
+			"sections_avg": 79.88,
+			"sections_year": 2011,
+			"sections_title": "comput robotics"
+		},
+		{
+			"sections_avg": 83.36,
+			"sections_year": 2015,
+			"sections_title": "comput robotics"
+		},
+		{
+			"sections_avg": 82.15,
+			"sections_year": 2012,
+			"sections_title": "comput robotics"
+		},
+		{
+			"sections_avg": 85,
+			"sections_year": 2013,
+			"sections_title": "para algs & arch"
+		},
+		{
+			"sections_avg": 82.65,
+			"sections_year": 2011,
+			"sections_title": "para algs & arch"
+		},
+		{
+			"sections_avg": 84.13,
+			"sections_year": 2015,
+			"sections_title": "para algs & arch"
+		},
+		{
+			"sections_avg": 83.2,
+			"sections_year": 2012,
+			"sections_title": "para algs & arch"
+		},
+		{
+			"sections_avg": 84,
+			"sections_year": 2011,
+			"sections_title": "artif intell 2"
+		},
+		{
+			"sections_avg": 83.39,
+			"sections_year": 2015,
+			"sections_title": "artif intell 2"
+		},
+		{
+			"sections_avg": 90.71,
+			"sections_year": 2012,
+			"sections_title": "artif intell 2"
+		},
+		{
+			"sections_avg": 91.22,
+			"sections_year": 2015,
+			"sections_title": "comp comm protcl"
+		},
+		{
+			"sections_avg": 91.22,
+			"sections_year": 2014,
+			"sections_title": "machine learn i"
+		},
+		{
+			"sections_avg": 87.61,
+			"sections_year": 2011,
+			"sections_title": "machine learn i"
+		},
+		{
+			"sections_avg": 90.53,
+			"sections_year": 2015,
+			"sections_title": "machine learn i"
+		},
+		{
+			"sections_avg": 86.06,
+			"sections_year": 2012,
+			"sections_title": "machine learn i"
+		},
+		{
+			"sections_avg": 86.5,
+			"sections_year": 2013,
+			"sections_title": "phy user intfc"
+		},
+		{
+			"sections_avg": 87.67,
+			"sections_year": 2011,
+			"sections_title": "phy user intfc"
+		},
+		{
+			"sections_avg": 82.07,
+			"sections_year": 2015,
+			"sections_title": "phy user intfc"
+		},
+		{
+			"sections_avg": 85.27,
+			"sections_year": 2014,
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_avg": 85.17,
+			"sections_year": 2013,
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_avg": 82.28,
+			"sections_year": 2011,
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_avg": 81.64,
+			"sections_year": 2015,
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_avg": 86.71,
+			"sections_year": 2012,
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_avg": 88.47,
+			"sections_year": 2014,
+			"sections_title": "info visualizatn"
+		},
+		{
+			"sections_avg": 88.68,
+			"sections_year": 2015,
+			"sections_title": "info visualizatn"
+		},
+		{
+			"sections_avg": 95,
+			"sections_year": 2014,
+			"sections_title": "m.sc major essay"
+		},
+		{
+			"sections_avg": 87,
+			"sections_year": 2013,
+			"sections_title": "m.sc major essay"
+		},
+		{
+			"sections_avg": 89,
+			"sections_year": 2011,
+			"sections_title": "m.sc major essay"
+		},
+		{
+			"sections_avg": 85,
+			"sections_year": 2015,
+			"sections_title": "m.sc major essay"
+		},
+		{
+			"sections_avg": 85.75,
+			"sections_year": 2015,
+			"sections_title": "m.sc major essay"
+		}
+	]
+}

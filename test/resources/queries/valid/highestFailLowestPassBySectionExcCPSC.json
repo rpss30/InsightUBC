@@ -1,0 +1,990 @@
+{
+	"title": "HighestFailLowestPassBySectionExcCPSC",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"IS": {
+					"sections_dept": "CPSC"
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"highestFailRate",
+				"lowestPassRate"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"highestFailRate"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept"
+			],
+			"APPLY": [
+				{
+					"highestFailRate": {
+						"MAX": "sections_fail"
+					}
+				},
+				{
+					"lowestPassRate": {
+						"MIN": "sections_pass"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "chem",
+			"highestFailRate": 287,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "biol",
+			"highestFailRate": 230,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "math",
+			"highestFailRate": 222,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "econ",
+			"highestFailRate": 221,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "cpsc",
+			"highestFailRate": 190,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "phys",
+			"highestFailRate": 184,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "psyc",
+			"highestFailRate": 175,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "apsc",
+			"highestFailRate": 141,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "comm",
+			"highestFailRate": 102,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "busi",
+			"highestFailRate": 88,
+			"lowestPassRate": 0
+		},
+		{
+			"sections_dept": "phil",
+			"highestFailRate": 87,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "wrds",
+			"highestFailRate": 87,
+			"lowestPassRate": 12
+		},
+		{
+			"sections_dept": "eosc",
+			"highestFailRate": 85,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "engl",
+			"highestFailRate": 79,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "lled",
+			"highestFailRate": 58,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "geob",
+			"highestFailRate": 56,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "elec",
+			"highestFailRate": 54,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "clst",
+			"highestFailRate": 53,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "span",
+			"highestFailRate": 51,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "bioc",
+			"highestFailRate": 50,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "japn",
+			"highestFailRate": 50,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "micb",
+			"highestFailRate": 47,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "poli",
+			"highestFailRate": 47,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "fmst",
+			"highestFailRate": 44,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "chbe",
+			"highestFailRate": 41,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "geog",
+			"highestFailRate": 38,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "stat",
+			"highestFailRate": 37,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "mech",
+			"highestFailRate": 36,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "educ",
+			"highestFailRate": 34,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "apbi",
+			"highestFailRate": 33,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "ling",
+			"highestFailRate": 33,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "caps",
+			"highestFailRate": 29,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "fren",
+			"highestFailRate": 29,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "civl",
+			"highestFailRate": 28,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "hist",
+			"highestFailRate": 26,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "scie",
+			"highestFailRate": 25,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "cons",
+			"highestFailRate": 24,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "crwr",
+			"highestFailRate": 24,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "frst",
+			"highestFailRate": 23,
+			"lowestPassRate": 0
+		},
+		{
+			"sections_dept": "fist",
+			"highestFailRate": 22,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "asia",
+			"highestFailRate": 20,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "fnh",
+			"highestFailRate": 20,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "kin",
+			"highestFailRate": 20,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "soci",
+			"highestFailRate": 20,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "visa",
+			"highestFailRate": 20,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "latn",
+			"highestFailRate": 19,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "ital",
+			"highestFailRate": 18,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "musc",
+			"highestFailRate": 18,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "astr",
+			"highestFailRate": 17,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "germ",
+			"highestFailRate": 17,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "lfs",
+			"highestFailRate": 15,
+			"lowestPassRate": 0
+		},
+		{
+			"sections_dept": "mtrl",
+			"highestFailRate": 12,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "thtr",
+			"highestFailRate": 12,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "vant",
+			"highestFailRate": 11,
+			"lowestPassRate": 13
+		},
+		{
+			"sections_dept": "cogs",
+			"highestFailRate": 10,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "cpen",
+			"highestFailRate": 10,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "arcl",
+			"highestFailRate": 9,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "arth",
+			"highestFailRate": 9,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "audi",
+			"highestFailRate": 9,
+			"lowestPassRate": 8
+		},
+		{
+			"sections_dept": "astu",
+			"highestFailRate": 8,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "chin",
+			"highestFailRate": 8,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "fipr",
+			"highestFailRate": 8,
+			"lowestPassRate": 8
+		},
+		{
+			"sections_dept": "grsj",
+			"highestFailRate": 8,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "korn",
+			"highestFailRate": 8,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "anth",
+			"highestFailRate": 7,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "cnps",
+			"highestFailRate": 7,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "fnis",
+			"highestFailRate": 7,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "mdvl",
+			"highestFailRate": 7,
+			"lowestPassRate": 28
+		},
+		{
+			"sections_dept": "nest",
+			"highestFailRate": 7,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "rmst",
+			"highestFailRate": 7,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "fopr",
+			"highestFailRate": 6,
+			"lowestPassRate": 0
+		},
+		{
+			"sections_dept": "mine",
+			"highestFailRate": 6,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "relg",
+			"highestFailRate": 6,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "wood",
+			"highestFailRate": 6,
+			"lowestPassRate": 0
+		},
+		{
+			"sections_dept": "adhe",
+			"highestFailRate": 5,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "last",
+			"highestFailRate": 5,
+			"lowestPassRate": 8
+		},
+		{
+			"sections_dept": "phar",
+			"highestFailRate": 5,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "scan",
+			"highestFailRate": 5,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "babs",
+			"highestFailRate": 4,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "cnrs",
+			"highestFailRate": 4,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "coec",
+			"highestFailRate": 4,
+			"lowestPassRate": 20
+		},
+		{
+			"sections_dept": "itst",
+			"highestFailRate": 4,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "larc",
+			"highestFailRate": 4,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "pcth",
+			"highestFailRate": 4,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "sowk",
+			"highestFailRate": 4,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "arch",
+			"highestFailRate": 3,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "ba",
+			"highestFailRate": 3,
+			"lowestPassRate": 12
+		},
+		{
+			"sections_dept": "cens",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "dhyg",
+			"highestFailRate": 3,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "eced",
+			"highestFailRate": 3,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "ends",
+			"highestFailRate": 3,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "enph",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "envr",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "epse",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "etec",
+			"highestFailRate": 3,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "hebr",
+			"highestFailRate": 3,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "igen",
+			"highestFailRate": 3,
+			"lowestPassRate": 10
+		},
+		{
+			"sections_dept": "isci",
+			"highestFailRate": 3,
+			"lowestPassRate": 13
+		},
+		{
+			"sections_dept": "laso",
+			"highestFailRate": 3,
+			"lowestPassRate": 65
+		},
+		{
+			"sections_dept": "law",
+			"highestFailRate": 3,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "port",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "russ",
+			"highestFailRate": 3,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "appp",
+			"highestFailRate": 2,
+			"lowestPassRate": 42
+		},
+		{
+			"sections_dept": "arbc",
+			"highestFailRate": 2,
+			"lowestPassRate": 8
+		},
+		{
+			"sections_dept": "asic",
+			"highestFailRate": 2,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "atsc",
+			"highestFailRate": 2,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "baac",
+			"highestFailRate": 2,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "bafi",
+			"highestFailRate": 2,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "eece",
+			"highestFailRate": 2,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "fre",
+			"highestFailRate": 2,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "hinu",
+			"highestFailRate": 2,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "medg",
+			"highestFailRate": 2,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "pers",
+			"highestFailRate": 2,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "plan",
+			"highestFailRate": 2,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "punj",
+			"highestFailRate": 2,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "rgla",
+			"highestFailRate": 2,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "rhsc",
+			"highestFailRate": 2,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "sans",
+			"highestFailRate": 2,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "spha",
+			"highestFailRate": 2,
+			"lowestPassRate": 23
+		},
+		{
+			"sections_dept": "spph",
+			"highestFailRate": 2,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "anat",
+			"highestFailRate": 1,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "arst",
+			"highestFailRate": 1,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "baen",
+			"highestFailRate": 1,
+			"lowestPassRate": 13
+		},
+		{
+			"sections_dept": "bahr",
+			"highestFailRate": 1,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "bama",
+			"highestFailRate": 1,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "bams",
+			"highestFailRate": 1,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "basc",
+			"highestFailRate": 1,
+			"lowestPassRate": 10
+		},
+		{
+			"sections_dept": "bmeg",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "ccst",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "cics",
+			"highestFailRate": 1,
+			"lowestPassRate": 19
+		},
+		{
+			"sections_dept": "clch",
+			"highestFailRate": 1,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "cohr",
+			"highestFailRate": 1,
+			"lowestPassRate": 11
+		},
+		{
+			"sections_dept": "dent",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "edcp",
+			"highestFailRate": 1,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "edst",
+			"highestFailRate": 1,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "fhis",
+			"highestFailRate": 1,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "fnel",
+			"highestFailRate": 1,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "food",
+			"highestFailRate": 1,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "grek",
+			"highestFailRate": 1,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "jrnl",
+			"highestFailRate": 1,
+			"lowestPassRate": 11
+		},
+		{
+			"sections_dept": "libe",
+			"highestFailRate": 1,
+			"lowestPassRate": 12
+		},
+		{
+			"sections_dept": "libr",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "medi",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "nrsc",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "nurs",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "obst",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "onco",
+			"highestFailRate": 1,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "path",
+			"highestFailRate": 1,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "phrm",
+			"highestFailRate": 1,
+			"lowestPassRate": 17
+		},
+		{
+			"sections_dept": "surg",
+			"highestFailRate": 1,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "swed",
+			"highestFailRate": 1,
+			"lowestPassRate": 12
+		},
+		{
+			"sections_dept": "ufor",
+			"highestFailRate": 1,
+			"lowestPassRate": 13
+		},
+		{
+			"sections_dept": "urst",
+			"highestFailRate": 1,
+			"lowestPassRate": 19
+		},
+		{
+			"sections_dept": "aanb",
+			"highestFailRate": 0,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "bait",
+			"highestFailRate": 0,
+			"lowestPassRate": 8
+		},
+		{
+			"sections_dept": "bala",
+			"highestFailRate": 0,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "bapa",
+			"highestFailRate": 0,
+			"lowestPassRate": 12
+		},
+		{
+			"sections_dept": "basm",
+			"highestFailRate": 0,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "baul",
+			"highestFailRate": 0,
+			"lowestPassRate": 20
+		},
+		{
+			"sections_dept": "biof",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "bota",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "ceen",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "cell",
+			"highestFailRate": 0,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "chil",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "cnto",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "dani",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "fish",
+			"highestFailRate": 0,
+			"lowestPassRate": 2
+		},
+		{
+			"sections_dept": "gbpr",
+			"highestFailRate": 0,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "gpp",
+			"highestFailRate": 0,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "gsat",
+			"highestFailRate": 0,
+			"lowestPassRate": 7
+		},
+		{
+			"sections_dept": "hgse",
+			"highestFailRate": 0,
+			"lowestPassRate": 14
+		},
+		{
+			"sections_dept": "hunu",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "iar",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "info",
+			"highestFailRate": 0,
+			"lowestPassRate": 40
+		},
+		{
+			"sections_dept": "iwme",
+			"highestFailRate": 0,
+			"lowestPassRate": 23
+		},
+		{
+			"sections_dept": "lais",
+			"highestFailRate": 0,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "midw",
+			"highestFailRate": 0,
+			"lowestPassRate": 6
+		},
+		{
+			"sections_dept": "mrne",
+			"highestFailRate": 0,
+			"lowestPassRate": 4
+		},
+		{
+			"sections_dept": "name",
+			"highestFailRate": 0,
+			"lowestPassRate": 11
+		},
+		{
+			"sections_dept": "phth",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "pols",
+			"highestFailRate": 0,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "rmes",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "rsot",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		},
+		{
+			"sections_dept": "soil",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "sts",
+			"highestFailRate": 0,
+			"lowestPassRate": 5
+		},
+		{
+			"sections_dept": "test",
+			"highestFailRate": 0,
+			"lowestPassRate": 3
+		},
+		{
+			"sections_dept": "udes",
+			"highestFailRate": 0,
+			"lowestPassRate": 13
+		},
+		{
+			"sections_dept": "ursy",
+			"highestFailRate": 0,
+			"lowestPassRate": 9
+		},
+		{
+			"sections_dept": "zool",
+			"highestFailRate": 0,
+			"lowestPassRate": 1
+		}
+	]
+}

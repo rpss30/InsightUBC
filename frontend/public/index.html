@@ -1,0 +1,544 @@
+<html>
+
+<head>
+	<title>InsightUBC</title>
+	<script src="https://unpkg.com/htmx.org@1.9.11"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script> <!-- Import D3 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<script src="https://unpkg.com/htmx.org/dist/ext/response-targets.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<nav class="navbar bg-tertiary">
+	<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">InsightUBC Sections Explorer</span>
+	</div>
+</nav>
+<div class="container border rounded my-3 pt-2">
+	<h3>Add Sections Dataset</h3>
+	<form>
+		<div class="mb-3"><input id="kind" name="kind" value="sections" type="hidden" /><label class="form-label" for="id">Dataset ID</label><input class="form-control" id="id" name="id" type="text" aria-describedby="idhelpblock" />
+			<div class="form-text" id="idhelpblock">Your ID must contain at least one character and cannot contain an underscore.</div>
+		</div>
+		<div class="mb-3"><label class="form-label" for="roomsfile">Dataset File</label><input class="form-control" id="roomsfile" name="roomsfile" type="file" /></div><button class="btn btn-primary" type="button" onclick="saveFile()">Upload</button>
+		<div class="mb-3 pt-2"
+			 id="statustext"></div>
+		<script type="text/javascript">
+			async function saveFile() {
+				var datasetId = document.getElementById('id').value;
+				var fileInput = document.getElementById('roomsfile').files[0];
+				var kind = document.getElementById('kind').value;
+				var statustext = document.getElementById('statustext');
+
+				if (fileInput) {
+					var reader = new FileReader();
+					var xhr = new XMLHttpRequest();
+					reader.onload = function() {
+						xhr.open('PUT', '/dataset/' + datasetId + '/' + kind, true);
+						xhr.setRequestHeader('Content-Type', 'application/x-zip-compressed'); // Set the appropriate Content-Type
+						xhr.send(reader.result); // Send the ArrayBuffer as the request body
+					};
+					xhr.onreadystatechange = function() {
+						if (xhr.status === 200) {
+							statustext.innerHTML = "Success!"
+						} else if (xhr.status > 399) {
+							statustext.innerHTML = `Error: ${xhr.status} ${xhr.statusText}`
+						}
+
+						htmx.trigger('body', 'refreshDatasets');
+					}
+					reader.readAsArrayBuffer(fileInput); // Read the file as an ArrayBuffer
+					statustext.innerHTML = "Adding dataset...";
+				} else {
+					console.log('Please select a file.');
+				}
+
+				// clears charts
+				clearCharts();
+			}
+		</script>
+	</form>
+</div>
+<div class="container border rounded my-3 py-2 pb-3">
+	<h2>Stored Datasets</h2>
+	<div id="datasetList" hx-get="/datasets" hx-trigger="load, refreshDatasets from:body"></div>
+</div>
+<script>
+	htmx.on('htmx:afterRequest', function(e) {
+		refreshDatasets(e);
+	});
+</script>
+<script type="text/javascript">
+	function refreshDatasets(e) {
+		var response;
+		if (e.detail.requestConfig && e.detail.requestConfig.path.startsWith('/dataset')) {
+			response = JSON.parse(e.detail.xhr.response);
+		} else if (!e.detail.requestConfig) {
+			response = e.detail.xhr.response;
+		}
+
+		var datasetList = document.getElementById("datasetList");
+		console.log(response);
+		if (response.result.length === 0) {
+			datasetList.innerHTML = "No datasets added.";
+			return;
+		}
+		var datasets = response.result.map(dataset => `<li class="list-group-item">${dataset.id}</li>`).join('');
+		datasetList.innerHTML = `<ul class="list-group">${datasets}</ul>`;
+
+		// clears charts
+		clearCharts();
+	}
+</script>
+<div class="container border rounded my-3 pt-2" hx-ext="response-targets">
+	<h2>Delete dataset</h2>
+	<form hx-delete="/dataset/" hx-on="htmx:configRequest: event.detail.path += datasetid.value" hx-swap="none" hx-boost="true" hx-target="#deleteresponse"><label class="form-label" for="datasetid">Dataset ID</label><input class="form-control" name="datasetid" id="datasetid" /><br/><button class="btn btn-primary" name="delete">Delete dataset</button>
+		<div class="mb-3 pt-2" id="deleteresponse"></div>
+	</form>
+</div>
+
+<div class="container border rounded my-3 pt-2">
+	<h2>Insight Selection</h2>
+	<form id="insightForm" onsubmit="performInsightQuery(); return false;">
+		<div class="mb-3">
+			<label for="datasetSelect" class="form-label">Stored Datasets</label>
+			<select class="form-control" id="datasetSelect" name="datasetID">
+				<!-- Options will be populated dynamically -->
+			</select>
+		</div>
+		<div class="mb-3">
+			<label for="insightSelect" class="form-label">Insight Options</label>
+			<select class="form-control" id="insightSelect" name="insightOption">
+				<option value="insight1">Total number of students who pass the CPSC, STAT, CPEN and MATH courses</option>
+				<option value="insight2">Highest Overall Department Averages</option>
+				<option value="insight3">Yearly Average Over Time</option>
+			</select>
+		</div>
+		<button type="submit" class="btn btn-primary" name="getInsights">Get Insights</button>
+		<div class="mb-3 pt-2" id="insightresponse"></div>
+	</form>
+</div>
+
+<!-- Display query results here -->
+<div id="bubbleChartContainer"></div> <!-- Container for the bubble chart -->
+<div id="barChartContainer"></div> <!-- Container for the bar chart -->
+<div id="lineChartContainer"></div> <!-- Container for the line chart -->
+
+<script>
+	// Simplified debugging version of the script
+	async function performInsightQuery() {
+		const datasetId = document.getElementById('datasetSelect').value;
+		const insightOption = document.getElementById('insightSelect').value;
+
+		try {
+			const queryResults = await executeQuery(datasetId, insightOption);
+			console.log('Query results retrieved:', queryResults);
+
+			if (insightOption === 'insight1') {
+				// Display the bubble chart only if insightOption is 'insight1'
+				displayQueryResults(queryResults, datasetId);
+			} else if (insightOption === 'insight2') {
+				// Clear the bar chart if insightOption is not 'insight2'
+				visualize(queryResults, datasetId);
+			} else {
+				createLineChart(queryResults, datasetId);
+			}
+
+			// Scroll to the bottom of the page smoothly
+			window.scrollTo({
+				top: document.body.scrollHeight,
+				behavior: 'smooth'
+			});
+		} catch (error) {
+			console.error('Error executing query:', error);
+		}
+	}
+
+
+	async function executeQuery(datasetId, insightOption) {
+		const query1 = {
+			WHERE: {
+				AND: [
+					{ GT: { [`${datasetId}_pass`]: 100 } },
+					{
+						OR: [
+							{ IS: { [`${datasetId}_dept`]: "cpsc" } },
+							{ IS: { [`${datasetId}_dept`]: "cpen" } },
+							{ IS: { [`${datasetId}_dept`]: "stat" } },
+							{ IS: { [`${datasetId}_dept`]: "math" } }
+						]
+					}
+				]
+			},
+			OPTIONS: {
+				COLUMNS: [`${datasetId}_dept`, `${datasetId}_id`, "totalPass", "totalFail", "totalAudit"],
+				ORDER: { dir: "UP", keys: ["totalPass"] }
+			},
+			TRANSFORMATIONS: {
+				GROUP: [`${datasetId}_dept`, `${datasetId}_id`],
+				APPLY: [
+					{ totalPass: { SUM: `${datasetId}_pass` } },
+					{ totalFail: { SUM: `${datasetId}_fail` } },
+					{ totalAudit: { SUM: `${datasetId}_audit` } }
+				]
+			}
+		};
+
+		const query2 = {
+			WHERE: {
+				EQ: {
+					[`${datasetId}_year`]: 1900
+				}
+			},
+			OPTIONS: {
+				COLUMNS: [
+					`${datasetId}_dept`,
+					"overallAvg"
+				],
+				ORDER: {
+					dir: "DOWN",
+					keys: ["overallAvg"]
+				}
+			},
+			TRANSFORMATIONS: {
+				GROUP: [`${datasetId}_dept`],
+				APPLY: [{
+					overallAvg: {
+						AVG: `${datasetId}_avg`
+					}
+				}]
+			}
+		}
+
+		const query3 = {
+			WHERE: {
+				NOT: {
+					EQ: {
+						// [`${datasetId}_pass`]
+						[`${datasetId}_year`]: 1900
+					}
+				}
+			},
+			OPTIONS: {
+				COLUMNS: [
+					`${datasetId}_year`,
+					"yearlyAvg"
+				],
+				ORDER: {
+					dir: "UP",
+					keys: [
+						`${datasetId}_year`
+					]
+				}
+			},
+			TRANSFORMATIONS: {
+				GROUP: [
+					`${datasetId}_year`
+				],
+				APPLY: [
+					{
+						yearlyAvg: {
+							AVG: `${datasetId}_avg`
+						}
+					}
+				]
+			}
+		}
+
+
+
+
+		// Execute the query by sending a POST request to the server
+		const response1 = await fetch('/query', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(query1)
+		});
+
+		const response2 = await fetch('/query', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(query2)
+		});
+
+		const response3 = await fetch('/query', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(query3)
+		});
+
+		const data1 = await response1.json();
+
+		const data2 = await response2.json();
+
+		const data3 = await response3.json();
+
+		if (insightOption === 'insight1') {
+			// Display the bubble chart only if insightOption is 'insight1'
+			return data1.result;
+		} else if (insightOption === 'insight2') {
+			// Clear the bubble chart if insightOption is not 'insight1'
+			return data2.result;
+		} else {
+			return data3.result;
+		}
+	}
+		// This function was adapted and expanded upon some with assistance from ChatGPT
+		function createLineChart(data, datasetID) {
+			clearCharts();
+			const margin = { top: 20, right: 30, bottom: 60, left: 60 }; // Adjusted bottom margin for x-axis label
+			const width = 800 - margin.left - margin.right;
+			const height = 400 - margin.top - margin.bottom;
+
+			// SVG creation
+			const svg = d3.select("#lineChartContainer").append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom);
+
+			const g = svg.append("g")
+				.attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+			// X scale and axis
+			const xScale = d3.scaleLinear()
+				.domain([d3.min(data, d => d[datasetID + '_year']), d3.max(data, d => d[datasetID + '_year'])])
+				.range([0, width]);
+
+			g.append("g")
+				.call(d3.axisBottom(xScale).tickFormat(d3.format("d")))
+				.attr("transform", `translate(0, ${height})`);
+
+			// Y scale and axis
+			const yScale = d3.scaleLinear()
+				.domain([d3.min(data, d => d.yearlyAvg) - 1, d3.max(data, d => d.yearlyAvg) + 1])
+				.range([height, 0]);
+
+			g.append("g").call(d3.axisLeft(yScale));
+
+			// Line generator
+			const lineGenerator = d3.line()
+				.x(d => xScale(d[datasetID + '_year']))
+				.y(d => yScale(d.yearlyAvg));
+
+			// Drawing the line
+			g.append("path")
+				.datum(data)
+				.attr("d", lineGenerator)
+				.style("fill", "none")
+				.style("stroke", "steelblue")
+				.style("stroke-width", 2);
+
+			// X-axis label
+			svg.append("text")
+				.attr("text-anchor", "end")
+				.attr("x", width / 2 + margin.left)
+				.attr("y", height + margin.top + 40) // Adjusted to fit under the x-axis
+				.text("Year");
+
+			// Y-axis label
+			svg.append("text")
+				.attr("text-anchor", "end")
+				.attr("transform", "rotate(-90)")
+				.attr("y", margin.left / 4) // Adjust for positioning
+				.attr("x", - (height / 2 + margin.top))
+				.text("Yearly Average");
+		}
+
+	function visualize(data, datasetId) {
+		clearCharts();
+
+		data = data.slice(0, Math.min(15, data.length)); // Remove .result
+
+		var margin = { top: 30, right: 30, bottom: 70, left: 60 },
+			width = 460 - margin.left - margin.right,
+			height = 400 - margin.top - margin.bottom;
+
+		var svg = d3.select("#barChartContainer")
+			.append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var x = d3.scaleBand()
+			.range([0, width])
+			.domain(
+				data.map(function (d) {
+					// d.sections_dept -> d[datasetID + '_dept']
+					return d[datasetId + '_dept'];
+				})
+			)
+			.padding(0.2);
+
+		let minAvg = Math.min(...data.map((obj) => obj.overallAvg));
+		let maxAvg = Math.max(...data.map((obj) => obj.overallAvg));
+		console.log(minAvg);
+
+		svg.append("g").attr("transform", "translate(0," + height + ")")
+			.call(d3.axisBottom(x))
+			.selectAll("text")
+			.attr("transform", "translate(-10,0)rotate(-45)")
+			.style("text-anchor", "end");
+
+		var y = d3.scaleLinear()
+			.domain([Math.max(0, minAvg - 3), Math.min(100, maxAvg + 3)])
+			.range([height, 0]);
+		svg.append("g").call(d3.axisLeft(y));
+
+		// Bars
+		svg.selectAll("bar")
+			.data(data)
+			.enter()
+			.append("rect")
+			.attr("x", function (d) {
+				// d.pair_dept -> d[datasetID + '_dept']
+				return x(d[datasetId + '_dept']);
+			})
+			.attr("y", function (d) {
+				return y(d.overallAvg);
+			})
+			.attr("width", x.bandwidth())
+			.attr("height", function (d) {
+				return height - y(d.overallAvg);
+			})
+			.attr("fill", "#29B6F6");
+
+		// X-axis label
+		svg.append("text")
+			.attr("text-anchor", "end")
+			.attr("x", width / 2 + margin.left)
+			.attr("y", height + margin.top + 20) // Adjusted to fit under the x-axis
+			.text("Department");
+
+		// Y-axis label
+		svg.append("text")
+			.attr("text-anchor", "end")
+			.attr("transform", "rotate(-90)")
+			.attr("y", (margin.left / 4) - 45) // Adjust for positioning
+			.attr("x", - (height / 2 + margin.top) + 30)
+			.text("Overall Average");
+
+	}
+
+	// This function was adapted and expanded upon from example provided on d3 library's website:
+	// https://observablehq.com/@d3/bubble-chart/2?intent=fork
+	function clearCharts() {
+		document.getElementById('bubbleChartContainer').innerHTML = '';
+		document.getElementById('barChartContainer').innerHTML = '';
+		document.getElementById('lineChartContainer').innerHTML = '';
+	}
+
+	function displayQueryResults(results, datasetID) {
+		// Clear the content of the bubbleChartContainer
+		// document.getElementById('bubbleChartContainer').innerHTML = '';
+		clearCharts();
+
+		const width = 800; // Adjust as needed
+		const height = 600; // Adjust as needed
+		const margin = 10; // Adjust as needed
+		const name = d => `${d[datasetID + '_dept']}.${d[datasetID + '_id']}`;
+		// const group = d => d.pair_dept; // Get the group from pair_dept
+		// d.pair_dept -> d[datasetID + '_dept']
+		const group = d => d[datasetID + '_dept'];
+		const names = d => [d[datasetID + '_dept'], d[datasetID + '_id']];
+		const format = d3.format(",d");
+		const color = d3.scaleOrdinal(d3.schemeTableau10);
+		const pack = d3.pack()
+			.size([width - margin * 2, height - margin * 2])
+			.padding(3);
+		const root = pack(d3.hierarchy({ children: results })
+			.sum(d => +d.totalPass));
+		const svg = d3.create("svg")
+			.attr("width", width)
+			.attr("height", height)
+			.attr("viewBox", [-margin, -margin, width, height])
+			.attr("style", "max-width: 100%; height: auto; font: 10px sans-serif;")
+			.attr("text-anchor", "middle");
+		const node = svg.append("g")
+			.selectAll()
+			.data(root.leaves())
+			.join("g")
+			.attr("transform", d => `translate(${d.x},${d.y})`);
+		node.append("title")
+			.text(d => `${name(d.data)}\n${format(+d.data.totalPass)}`);
+		node.append("circle")
+			.attr("fill-opacity", 0.7)
+			.attr("fill", d => color(group(d.data)))
+			.attr("r", d => d.r);
+		const text = node.append("text")
+			.attr("clip-path", d => `circle(${d.r})`);
+		text.selectAll()
+			.data(d => names(d.data))
+			.join("tspan")
+			.attr("x", 0)
+			.attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.35}em`)
+			.text(d => d);
+		text.append("tspan")
+			.attr("x", 0)
+			.attr("y", d => `${names(d.data).length / 2 + 0.35}em`)
+			.attr("fill-opacity", 0.7)
+			.text(d => format(+d.data.totalPass));
+		// Append the SVG to the container div
+		document.getElementById('bubbleChartContainer').appendChild(svg.node());
+	}
+
+
+
+	// Populate datasets on page load (Simulated)
+	document.addEventListener('DOMContentLoaded', async function () {
+		try {
+			// Simulated dataset loading
+			const datasetList = document.getElementById("datasetSelect");
+			datasetList.innerHTML = `
+                    <option value="dataset1">Dataset 1</option>
+                    <option value="dataset2">Dataset 2</option>
+                `;
+		} catch (error) {
+			console.error('Error loading datasets:', error);
+		}
+	});
+
+	function refreshDatasets(e) {
+		console.log("Refresh datasets triggered.", e);
+		const response = JSON.parse(e.detail.xhr.response);
+
+		const datasetList = document.getElementById("datasetList");
+		const datasetSelect = document.getElementById('datasetSelect');
+
+		// Handle the dataset list
+		let listItemsHtml = response.result.map(dataset => `<li class="list-group-item">${dataset.id}</li>`).join('');
+		datasetList.innerHTML = `<ul class="list-group">${listItemsHtml}</ul>`;
+
+		// Handle the dataset dropdown
+		datasetSelect.innerHTML = response.result.map(dataset => `<option value="${dataset.id}">${dataset.id}</option>`).join('');
+		clearCharts();
+	}
+
+	htmx.on('htmx:afterRequest', function(e) {
+		if (e.detail.path.includes('/dataset/')) {
+			refreshDatasets(e);
+		}
+	});
+
+	// Populate datasets on page load
+	document.addEventListener('DOMContentLoaded', function() {
+		fetch('/datasets')
+			.then(response => response.json())
+			.then(data => refreshDatasets({ detail: { xhr: { response: JSON.stringify(data) } } }))
+			.catch(error => console.error('Error fetching datasets:', error));
+	});
+</script>
+
+
+
+
+</body>
+
+</html>

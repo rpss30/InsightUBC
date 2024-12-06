@@ -1,0 +1,38 @@
+{
+	"title": "invalid value type (number)",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": 123
+					}
+				},
+				{
+					"LT": {
+						"sections_year": 2020
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2010
+					}
+				},
+				{
+					"GT": {
+						"sections_avg": 75
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"sections_year",
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

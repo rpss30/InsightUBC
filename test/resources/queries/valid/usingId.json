@@ -1,0 +1,699 @@
+{
+	"title": "using id",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"IS": {
+						"sections_id": "123"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "chem",
+			"sections_pass": 118,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 118,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 143,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 143,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 139,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 218,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 206,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 228,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 217,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 203,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 198,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1409,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 137,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 181,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 187,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 192,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 210,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 114,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 150,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 188,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1359,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 124,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 124,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 147,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 220,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 213,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 176,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 225,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 204,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 209,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1394,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 138,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 138,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 147,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 192,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 195,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 222,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 213,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 197,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 175,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 189,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1530,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 121,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 121,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 126,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 213,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 213,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 233,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 239,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 209,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 208,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1441,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 151,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 209,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 197,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 218,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 215,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 180,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 216,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1386,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 119,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 119,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 141,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 198,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 199,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 212,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 212,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 201,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 192,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 190,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 1545,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 91,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "chem",
+			"sections_pass": 91,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 15,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 15,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 16,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 14,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 18,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 17,
+			"sections_audit": 1
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 8,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 20,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 151,
+			"sections_audit": 2
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 31,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 136,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 20,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 20,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 17,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 18,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 30,
+			"sections_audit": 1
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 7,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 16,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 27,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 141,
+			"sections_audit": 2
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 20,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 10,
+			"sections_audit": 1
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 30,
+			"sections_audit": 1
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 13,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 28,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 8,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 31,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 24,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 164,
+			"sections_audit": 3
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 17,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 25,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 20,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 137,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 24,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 17,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 32,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 24,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 24,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 18,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 26,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 25,
+			"sections_audit": 1
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 190,
+			"sections_audit": 2
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 19,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 19,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 16,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 23,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 29,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 30,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 13,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 15,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "fren",
+			"sections_pass": 187,
+			"sections_audit": 0
+		}
+	]
+}

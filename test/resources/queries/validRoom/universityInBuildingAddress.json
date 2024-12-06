@@ -1,0 +1,89 @@
+{
+	"title": "UniversityInBuildingAddress",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_address": "*University*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_address"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"rooms_address"
+				]
+			}
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "PCOH",
+			"rooms_address": "6445 University Boulevard"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_address": "6270 University Boulevard"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_address": "6270 University Boulevard"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_address": "6270 University Boulevard"
+		},
+		{
+			"rooms_shortname": "BIOL",
+			"rooms_address": "6270 University Boulevard"
+		},
+		{
+			"rooms_shortname": "WESB",
+			"rooms_address": "6174 University Boulevard"
+		},
+		{
+			"rooms_shortname": "WESB",
+			"rooms_address": "6174 University Boulevard"
+		},
+		{
+			"rooms_shortname": "MGYM",
+			"rooms_address": "6081 University Blvd"
+		},
+		{
+			"rooms_shortname": "MGYM",
+			"rooms_address": "6081 University Blvd"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"title": "using uuid",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"IS": {
+						"sections_uuid": "1000"
+					}
+				},
+				{
+					"IS": {
+						"sections_uuid": "100"
+					}
+				},
+				{
+					"IS": {
+						"sections_uuid": "10"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_pass",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "comm",
+			"sections_pass": 35,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "dhyg",
+			"sections_pass": 21,
+			"sections_audit": 0
+		},
+		{
+			"sections_dept": "japn",
+			"sections_pass": 42,
+			"sections_audit": 0
+		}
+	]
+}
