@@ -7,6 +7,7 @@ exports.processBuildingTable = void 0;
 const BuildingRoom_1 = require("../model/BuildingRoom");
 const fetchUtil_1 = require("./fetchUtil");
 const assert_1 = __importDefault(require("assert"));
+const campusGeo_1 = require("./campusGeo");
 async function processBuildingTable(node) {
     const buildings = [];
     const childTableBody = node.childNodes.find((child) => child.nodeName === "tbody");
@@ -21,8 +22,8 @@ async function processBuildingTable(node) {
         if (row.nodeName === "#text" || !(0, BuildingRoom_1.isElement)(row)) {
             continue;
         }
-        let classCounter = {};
-        for (let className of BuildingRoom_1.requiredBuildingClasses) {
+        const classCounter = {};
+        for (const className of BuildingRoom_1.requiredBuildingClasses) {
             classCounter[className] = 0;
         }
         for (const cell of row.childNodes) {
@@ -60,11 +61,12 @@ async function getBuildingWithGeo(row) {
     }
     try {
         const geoResponse = await fetchAddress(buildingOrError.address);
-        buildingOrError.lat = (geoResponse.lat ? geoResponse.lat : 0);
-        buildingOrError.lon = (geoResponse.lon ? geoResponse.lon : 0);
+        buildingOrError.lat = geoResponse.lat ?? 0;
+        buildingOrError.lon = geoResponse.lon ?? 0;
     }
-    catch (error) {
-        console.error("Failed to fetch address:", error);
+    catch {
+        buildingOrError.lat = 0;
+        buildingOrError.lon = 0;
     }
     return buildingOrError;
 }
@@ -114,6 +116,10 @@ function tableRowToBuilding(row) {
     return { fullname: fullname, shortname: shortname, address: address, uri: uri, lat: 0, lon: 0 };
 }
 async function fetchAddress(address) {
+    const knownGeo = (0, campusGeo_1.findKnownCampusGeo)(address);
+    if (knownGeo !== undefined) {
+        return Promise.resolve(knownGeo);
+    }
     const url = `http://cs310.students.cs.ubc.ca:11316/api/v1/project_team138/${encodeURI(address)}`;
     const response = await (0, fetchUtil_1.fetchData)(url);
     const parsed = JSON.parse(response);

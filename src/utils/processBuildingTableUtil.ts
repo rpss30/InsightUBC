@@ -10,6 +10,7 @@ import {
 } from "../model/BuildingRoom";
 import {fetchData} from "./fetchUtil";
 import assert from "assert";
+import {findKnownCampusGeo} from "./campusGeo";
 
 export async function processBuildingTable(node: Element): Promise<Building[] | HTMLParseError> {
 	const buildings: Building[] = [];
@@ -38,10 +39,10 @@ export async function processBuildingTable(node: Element): Promise<Building[] | 
 			continue;
 		}
 
-		let classCounter: {[key: string]: number} = {};
+		const classCounter: {[key: string]: number} = {};
 
 		// Initialize or reset the counter for required classes
-		for (let className of requiredBuildingClasses) {
+		for (const className of requiredBuildingClasses) {
 			classCounter[className] = 0;
 		}
 
@@ -93,10 +94,11 @@ async function getBuildingWithGeo(row: Element): Promise<Building | HTMLParseErr
 	try {
 		const geoResponse = await fetchAddress(buildingOrError.address);
 		// Directly modify the building object with lat and lon.
-		buildingOrError.lat = (geoResponse.lat ? geoResponse.lat : 0);
-		buildingOrError.lon = (geoResponse.lon ? geoResponse.lon : 0);
-	} catch (error) {
-		console.error("Failed to fetch address:", error);
+		buildingOrError.lat = geoResponse.lat ?? 0;
+		buildingOrError.lon = geoResponse.lon ?? 0;
+	} catch {
+		buildingOrError.lat = 0;
+		buildingOrError.lon = 0;
 	}
 
 	return buildingOrError;
@@ -159,6 +161,11 @@ function tableRowToBuilding(row: Element): Building | HTMLParseError {
 }
 
 async function fetchAddress(address: string): Promise<GeoResponse> {
+	const knownGeo = findKnownCampusGeo(address);
+	if (knownGeo !== undefined) {
+		return Promise.resolve(knownGeo);
+	}
+
 	const url = `http://cs310.students.cs.ubc.ca:11316/api/v1/project_team138/${encodeURI(address)}`;
 	const response: string = await fetchData(url);
 	const parsed = JSON.parse(response);

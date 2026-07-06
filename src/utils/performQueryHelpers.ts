@@ -59,9 +59,9 @@ function compareMComparator(type: "LT" | "GT" | "EQ", condition: MCOMPARATOR, it
 	const [key, value] = Object.entries(condition)[0];
 	switch (type) {
 		case "LT":
-			return item[key] < value;
+			return (item[key] as number) < value;
 		case "GT":
-			return item[key] > value;
+			return (item[key] as number) > value;
 		case "EQ":
 			return item[key] === value;
 		default:
@@ -105,7 +105,7 @@ export function applyOPTIONS(query: Query, results: InsightResult[]){
 			});
 		} else {
 			sortedResults = results.sort((a, b) => {
-				let sort = query.OPTIONS.ORDER as SORTList;
+				const sort = query.OPTIONS.ORDER as SORTList;
 				for (const key of sort.keys) {
 					if (a[key] !== b[key]) {
 						if (sort.dir === "UP") {
@@ -125,7 +125,7 @@ export function applyOPTIONS(query: Query, results: InsightResult[]){
 // Aggregration
 
 export function applyTransformations(transformations: TRANSFORMATIONS, dataset: InsightResult[]) {
-	let groupedData = applyGrouping(transformations.GROUP, dataset);
+	const groupedData = applyGrouping(transformations.GROUP, dataset);
 	return applyApplyRules(transformations.APPLY, groupedData);
 }
 
@@ -208,27 +208,39 @@ export function getID(filter: FILTER): string {
 	let id = "";
 	switch (type) {
 		case "AND":
-			// return condition.every((subFilter: FILTER) => evaluateFilter(subFilter, item));
+			id = findFirstID(condition as FILTER[]);
+			break;
 		case "OR":
-			// return condition.some((subFilter: FILTER) => evaluateFilter(subFilter, item));
-			id = getID(condition[0]);
+			id = findFirstID(condition as FILTER[]);
 			break;
 		case "NOT":
-			// return !evaluateFilter(condition, item);
-			id = getID(condition);
+			id = getID(condition as FILTER);
 			break;
 		case "LT":
 		case "GT":
 		case "EQ":
 		case "IS":
-			id = extractID(type, condition);
+			id = extractID(condition as MCOMPARATOR | IS);
 	}
 	return id;
 }
 
-function extractID(type: "LT" | "GT" | "EQ" | "IS", condition: MCOMPARATOR): string {
-	const [key, value] = Object.entries(condition)[0];
-	let index = key.indexOf("_");
+function findFirstID(filters: FILTER[]): string {
+	for (const filter of filters) {
+		const id = getID(filter);
+		if (id !== "") {
+			return id;
+		}
+	}
+	return "";
+}
+
+function extractID(condition: MCOMPARATOR | IS): string {
+	const [key] = Object.entries(condition)[0];
+	const index = key.indexOf("_");
+	if (index === -1) {
+		return "";
+	}
 	return key.substring(0, index);
 }
 

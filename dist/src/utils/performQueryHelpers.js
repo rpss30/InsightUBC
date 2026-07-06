@@ -87,7 +87,7 @@ function applyOPTIONS(query, results) {
         }
         else {
             sortedResults = results.sort((a, b) => {
-                let sort = query.OPTIONS.ORDER;
+                const sort = query.OPTIONS.ORDER;
                 for (const key of sort.keys) {
                     if (a[key] !== b[key]) {
                         if (sort.dir === "UP") {
@@ -106,7 +106,7 @@ function applyOPTIONS(query, results) {
 }
 exports.applyOPTIONS = applyOPTIONS;
 function applyTransformations(transformations, dataset) {
-    let groupedData = applyGrouping(transformations.GROUP, dataset);
+    const groupedData = applyGrouping(transformations.GROUP, dataset);
     return applyApplyRules(transformations.APPLY, groupedData);
 }
 exports.applyTransformations = applyTransformations;
@@ -164,8 +164,10 @@ function getID(filter) {
     let id = "";
     switch (type) {
         case "AND":
+            id = findFirstID(condition);
+            break;
         case "OR":
-            id = getID(condition[0]);
+            id = findFirstID(condition);
             break;
         case "NOT":
             id = getID(condition);
@@ -174,14 +176,26 @@ function getID(filter) {
         case "GT":
         case "EQ":
         case "IS":
-            id = extractID(type, condition);
+            id = extractID(condition);
     }
     return id;
 }
 exports.getID = getID;
-function extractID(type, condition) {
-    const [key, value] = Object.entries(condition)[0];
-    let index = key.indexOf("_");
+function findFirstID(filters) {
+    for (const filter of filters) {
+        const id = getID(filter);
+        if (id !== "") {
+            return id;
+        }
+    }
+    return "";
+}
+function extractID(condition) {
+    const [key] = Object.entries(condition)[0];
+    const index = key.indexOf("_");
+    if (index === -1) {
+        return "";
+    }
     return key.substring(0, index);
 }
 function validateField(item, field) {
