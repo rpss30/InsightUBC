@@ -58,6 +58,7 @@ class Server {
     }
     registerRoutes() {
         this.express.get("/echo/:msg", Server.echo);
+        this.express.get("/health", Server.health);
         this.express.put("/dataset/:id/:kind", endpoints_1.submitDataset);
         this.express.delete("/dataset/:id", endpoints_1.deleteDataset);
         this.express.post("/query", endpoints_1.query);
@@ -72,6 +73,9 @@ class Server {
         catch (err) {
             res.status(400).json({ error: err });
         }
+    }
+    static health(req, res) {
+        res.status(200).json({ result: { status: "ok" } });
     }
     static performEcho(msg) {
         if (typeof msg !== "undefined" && msg !== null) {

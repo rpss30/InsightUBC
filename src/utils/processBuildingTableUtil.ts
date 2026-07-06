@@ -105,8 +105,6 @@ async function getBuildingWithGeo(row: Element): Promise<Building | HTMLParseErr
 }
 
 function tableRowToBuilding(row: Element): Building | HTMLParseError {
-	const buildings: Building[] = [];
-
 	// Loop over all td of tr
 	let fullname, shortname, address, uri: string | undefined;
 

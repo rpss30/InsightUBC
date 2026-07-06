@@ -71,7 +71,6 @@ async function getBuildingWithGeo(row) {
     return buildingOrError;
 }
 function tableRowToBuilding(row) {
-    const buildings = [];
     let fullname, shortname, address, uri;
     for (const cell of row.childNodes) {
         if (cell.nodeName === "#text" || !(0, BuildingRoom_1.isElement)(cell)) {

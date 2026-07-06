@@ -5,6 +5,53 @@ Please keep your repository private.
 
 For information about the project, autotest, and the checkpoints, see the course webpage.
 
+## Quick start
+
+This project targets Node 18 and Yarn 1.x.
+
+```sh
+fnm use 18
+yarn install
+yarn build
+yarn test
+yarn start
+```
+
+If your shell is not configured to auto-switch Node versions with `fnm`, run commands through Node 18 directly:
+
+```sh
+fnm exec --using=18 yarn start
+```
+
+Open the app at [http://localhost:4321](http://localhost:4321).
+
+The server reads `PORT` if you need a different local port:
+
+```sh
+PORT=4322 fnm exec --using=18 yarn start
+```
+
+You can verify the API is alive at `/health`, which returns:
+
+```json
+{"result":{"status":"ok"}}
+```
+
+## Using the demo app
+
+Use a dataset id with at least one character and no underscore. For example:
+
+```text
+sections
+```
+
+Useful sample archives live in `test/resources/archives/`:
+
+- `pair.zip` and `cpsc.zip` are sections datasets.
+- `campus.zip` is a rooms dataset.
+
+After uploading a dataset, use the stored dataset list and insight controls in the web UI.
+
 ## Configuring your environment
 
 To start using this project, you need to get your development environment configured so that you can build and execute the code.

@@ -1,7 +1,6 @@
 import {Request, Response} from "express";
 import InsightFacade from "../controller/InsightFacade";
-import {InsightDatasetKind, InsightError, NotFoundError} from "../controller/IInsightFacade";
-import fs from "fs";
+import {InsightDatasetKind, NotFoundError} from "../controller/IInsightFacade";
 
 export function submitDataset(req: Request, res: Response) {
 	const facade = new InsightFacade();
@@ -69,4 +68,3 @@ export function getDatasets(req: Request, res: Response) {
 			res.status(500).json({error: "Failed to list datasets"});
 		});
 }
-

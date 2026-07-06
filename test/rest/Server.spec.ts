@@ -1,19 +1,14 @@
 import Server from "../../src/rest/Server";
-import InsightFacade from "../../src/controller/InsightFacade";
 
 import {expect} from "chai";
-import request, {Response} from "supertest";
-import {clearDisk, getContentFromArchives, readFileQueries} from "../TestUtil";
-// import {InsightError, ResultTooLargeError} from "../../src/controller/IInsightFacade";
-import {fail} from "node:assert";
-import {ITestQuery} from "../controller/InsightFacade.spec";
+import request from "supertest";
+import {clearDisk, getContentFromArchives} from "../TestUtil";
 
 const PORT = 4321;
 const SERVER_URL = `localhost:${PORT}`;
 
 describe("Facade D3", function () {
 
-	let facade: InsightFacade;
 	let server: Server;
 	let cpsczip: string;
 	let campuszip: string;
@@ -21,49 +16,27 @@ describe("Facade D3", function () {
 
 	before(async function () {
 		await clearDisk();
-		facade = new InsightFacade();
 		server = new Server(PORT);
 		cpsczip = await getContentFromArchives("cpsc.zip");
 		campuszip = await getContentFromArchives("campus.zip");
 		pairzip = await getContentFromArchives("pair.zip");
-		// TODO: start server here once and handle errors properly
-		// await server.start();
-		server.start().then(() => {
-			console.log("success");
-		}).catch(() => {
-			console.log("error");
-		});
+		await server.start();
 	});
 
 	after(async function () {
-		// await server.stop();
-		server.stop().then(() => {
-			console.log("success");
-		}).catch(() => {
-			console.log("error");
-		});
+		await server.stop();
 	});
 
 	beforeEach(async function () {
 		await clearDisk();
 		const ZIP_FILE_DATA = Buffer.from(pairzip, "base64");
 		const ENDPOINT_URL = "/dataset/sections/sections";
-		try {
-			return request(SERVER_URL)
-				.put(ENDPOINT_URL)
-				.set("Content-Type", "application/x-zip-compressed")
-				.send(ZIP_FILE_DATA)
-				.then(function (res: Response) {
-					// some logging here please!
-					expect(res.status).to.be.equal(200);
-				})
-				.catch(function (err) {
-					console.error(err);
-					expect.fail();
-				});
-		} catch (err) {
-			// and some more logging here!
-		}
+		const res = await request(SERVER_URL)
+			.put(ENDPOINT_URL)
+			.set("Content-Type", "application/x-zip-compressed")
+			.send(ZIP_FILE_DATA);
+
+		expect(res.status).to.be.equal(200);
 	});
 
 	afterEach(async function() {
@@ -79,63 +52,40 @@ describe("Facade D3", function () {
 			});
 	});
 
-	// Sample on how to format PUT requests
+	it("GET health check", async function () {
+		const res = await request(SERVER_URL).get("/health");
+
+		expect(res.status).to.be.equal(200);
+		expect(res.body).to.deep.equal({result: {status: "ok"}});
+	});
+
 	it("PUT test for courses dataset", async function () {
-		// const ZIP_FILE_DATA = atob(cpsczip);
 		const ZIP_FILE_DATA = Buffer.from(cpsczip, "base64");
 		const ENDPOINT_URL = "/dataset/cpsc/sections";
-		try {
-			return request(SERVER_URL)
-				.put(ENDPOINT_URL)
-				.set("Content-Type", "application/x-zip-compressed")
-				.send(ZIP_FILE_DATA)
-				.then(function (res: Response) {
-					// some logging here please!
-					expect(res.status).to.be.equal(200);
-				})
-				.catch(function (err) {
-					console.error(err);
-					expect.fail();
-				});
-		} catch (err) {
-			// and some more logging here!
-		}
+		const res = await request(SERVER_URL)
+			.put(ENDPOINT_URL)
+			.set("Content-Type", "application/x-zip-compressed")
+			.send(ZIP_FILE_DATA);
+
+		expect(res.status).to.be.equal(200);
 	});
 
 	it("PUT test for rooms dataset", async function () {
-		// const ZIP_FILE_DATA = atob(campuszip);
 		const ZIP_FILE_DATA = Buffer.from(campuszip, "base64");
 		const ENDPOINT_URL = "/dataset/campus/rooms";
-		try {
-			return request(SERVER_URL)
-				.put(ENDPOINT_URL)
-				.set("Content-Type", "application/x-zip-compressed")
-				.send(ZIP_FILE_DATA)
-				.then(function (res: Response) {
-					// some logging here please!
-					expect(res.status).to.be.equal(200);
-				})
-				.catch(function (err) {
-					console.error(err);
-					expect.fail();
-				});
-		} catch (err) {
-			// and some more logging here!
-		}
+		const res = await request(SERVER_URL)
+			.put(ENDPOINT_URL)
+			.set("Content-Type", "application/x-zip-compressed")
+			.send(ZIP_FILE_DATA);
+
+		expect(res.status).to.be.equal(200);
 	});
 
 	it("DELETE test for courses dataset", async function () {
 		const ENDPOINT_URL = "/dataset/sections";
-		try {
-			return request(SERVER_URL)
-				.delete(ENDPOINT_URL)
-				.then(function (res: Response) {
-					expect(res.status).to.be.equal(200);
-				});
-		} catch (err) {
-			console.error(err);
-			expect.fail();
-		}
+		const res = await request(SERVER_URL).delete(ENDPOINT_URL);
+
+		expect(res.status).to.be.equal(200);
 	});
 
 	it("POST test for query", async function () {
@@ -163,18 +113,11 @@ describe("Facade D3", function () {
 				]
 			}
 		};
-		try {
-			return request(SERVER_URL)
-				.post(ENDPOINT_URL)
-				.send(QUERY)
-				.then(function (res: Response) {
-					expect(res.status).to.be.equal(200);
-					// expect(res.body).to.be.an("object"); // Further assertions can be made based on the expected structure of the response
-				});
-		} catch (err) {
-			console.error(err);
-			expect.fail();
-		}
+		const res = await request(SERVER_URL)
+			.post(ENDPOINT_URL)
+			.send(QUERY);
+
+		expect(res.status).to.be.equal(200);
 	});
 
 	// describe("Bulk queries", function() {
@@ -210,17 +153,8 @@ describe("Facade D3", function () {
 
 	it("GET test for datasets", async function () {
 		const ENDPOINT_URL = "/datasets";
-		try {
-			return request(SERVER_URL)
-				.get(ENDPOINT_URL)
-				.then(function (res: Response) {
-					expect(res.status).to.be.equal(200);
-					// expect(res.body).to.be.an("array"); // Assuming the response is an array of dataset objects
-					// Further assertions can be made based on the content of the datasets returned
-				});
-		} catch (err) {
-			console.error(err);
-			expect.fail();
-		}
+		const res = await request(SERVER_URL).get(ENDPOINT_URL);
+
+		expect(res.status).to.be.equal(200);
 	});
 });

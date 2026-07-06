@@ -2,7 +2,6 @@ import {
 	IS,
 	FILTER,
 	MCOMPARATOR,
-	SORT,
 	TRANSFORMATIONS,
 	Key,
 	APPLYRULE, Query, SORTList,

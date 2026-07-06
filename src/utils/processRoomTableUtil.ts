@@ -62,14 +62,13 @@ function getValueByClass(node: Element, className: string, valueType: "href"|"te
 }
 
 function processRoomTable(table: Element): Room[] {
-	let rooms: Room[] = [];
+	const rooms: Room[] = [];
 
 	if (!isElement(table)) {
 		return [];
 	}
 
 	// If we have reached a table row, we can process its cells
-	let t;
 	if (table.nodeName === "tr") {
 		const number = getValueByClass(table, "views-field-field-room-number", "valueInHref");
 		const seats =  getValueByClass(table, "views-field-field-room-capacity", "text") ;
@@ -99,4 +98,3 @@ function processRoomTable(table: Element): Room[] {
 
 	return rooms;
 }
-
