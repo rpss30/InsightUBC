@@ -1,6 +1,6 @@
 import {Query} from "../model/Query";
 
-let globalid: string = "";
+let globalid = "";
 
 export const queryGuard = (o: any): o is Query => {
 	const applykeys: string[] = [];

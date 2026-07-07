@@ -45,7 +45,7 @@ exports.isText = isText;
 function combineBuildingAndRooms(building, rooms) {
     const buildingRooms = [];
     for (const room of rooms) {
-        let buildingRoom = { ...building, ...room };
+        const buildingRoom = { ...building, ...room };
         buildingRoom.name = `${building.shortname}_${room.number}`;
         buildingRooms.push(buildingRoom);
     }

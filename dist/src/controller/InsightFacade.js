@@ -45,7 +45,7 @@ class InsightFacade {
         if (currentDatasets.some((dataset) => dataset.id === id)) {
             return Promise.reject(new IInsightFacade_1.InsightError("A dataset with this name has already been added."));
         }
-        let zip = new jszip_1.default();
+        const zip = new jszip_1.default();
         await zip.loadAsync(content, { base64: true }).catch((error) => {
             return Promise.reject(new IInsightFacade_1.InsightError("Unable to process ZIP file:" + error));
         });

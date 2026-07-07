@@ -1,5 +1,7 @@
 import Server from "./rest/Server";
 
+const DEFAULT_PORT = 4321;
+
 /**
  * Main app class that is run with the node command. Starts the server.
  */
@@ -16,9 +18,13 @@ export class App {
 	}
 }
 
-// This ends up starting the whole system and listens on a hardcoded port (4321)
+function getPort(): number {
+	const port = Number.parseInt(process.env.PORT ?? "", 10);
+	return Number.isInteger(port) && port > 0 ? port : DEFAULT_PORT;
+}
+
 console.info("App - starting");
 const app = new App();
 (async () => {
-	await app.initServer(4321);
+	await app.initServer(getPort());
 })();

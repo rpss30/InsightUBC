@@ -50,11 +50,10 @@ function getValueByClass(node, className, valueType) {
     return undefined;
 }
 function processRoomTable(table) {
-    let rooms = [];
+    const rooms = [];
     if (!(0, BuildingRoom_1.isElement)(table)) {
         return [];
     }
-    let t;
     if (table.nodeName === "tr") {
         const number = getValueByClass(table, "views-field-field-room-number", "valueInHref");
         const seats = getValueByClass(table, "views-field-field-room-capacity", "text");

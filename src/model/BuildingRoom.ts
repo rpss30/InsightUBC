@@ -85,7 +85,7 @@ export function isText(node: ChildNode): node is TextNode {
 export function combineBuildingAndRooms(building: Building, rooms: Room[]): BuildingRoom[] {
 	const buildingRooms: BuildingRoom[] = [];
 	for (const room of rooms) {
-		let buildingRoom: BuildingRoom = {...building, ...room};
+		const buildingRoom: BuildingRoom = {...building, ...room};
 		buildingRoom.name = `${building.shortname}_${room.number}`;
 		buildingRooms.push(buildingRoom);
 	}

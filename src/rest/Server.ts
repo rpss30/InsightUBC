@@ -2,7 +2,6 @@ import express, {Application, Request, Response} from "express";
 import * as http from "http";
 import cors from "cors";
 import {getDatasets, deleteDataset, submitDataset, query} from "./endpoints";
-import path from "node:path";
 
 // module.paths.push(path.join(__dirname, "../../frontend/node_modules"));
 // const pug = require("pug");
@@ -96,6 +95,7 @@ export default class Server {
 		// This is an example endpoint this you can invoke by accessing this URL in your browser:
 		// http://localhost:4321/echo/hello
 		this.express.get("/echo/:msg", Server.echo);
+		this.express.get("/health", Server.health);
 
 		// TODO: your other endpoints should go here
 		this.express.put("/dataset/:id/:kind", submitDataset);
@@ -116,6 +116,10 @@ export default class Server {
 		} catch (err) {
 			res.status(400).json({error: err});
 		}
+	}
+
+	private static health(req: Request, res: Response) {
+		res.status(200).json({result: {status: "ok"}});
 	}
 
 	private static performEcho(msg: string): string {
