@@ -50,7 +50,7 @@ export default class InsightFacade implements IInsightFacade {
 
 		// Unzip the file
 
-		let zip: JSZip = new JSZip();
+		const zip: JSZip = new JSZip();
 		await zip.loadAsync(content, {base64: true}).catch((error) => {
 			return Promise.reject(new InsightError("Unable to process ZIP file:" + error));
 		});

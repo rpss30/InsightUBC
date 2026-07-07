@@ -113,7 +113,7 @@ describe("InsightFacade", function () {
 
 		it ("Reject invalid kind on adding", function() {
 
-			const invalidKind: string = "invalidValue";
+			const invalidKind = "invalidValue";
 			const result = facade.addDataset("ubc_dataset", cpsc, invalidKind as InsightDatasetKind);
 
 			return expect(result).to.eventually.be.rejectedWith(InsightError);
