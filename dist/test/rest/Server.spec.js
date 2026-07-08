@@ -58,6 +58,34 @@ describe("Facade D3", function () {
             .send(ZIP_FILE_DATA);
         (0, chai_1.expect)(res.status).to.be.equal(200);
     });
+    it("PUT rejects duplicate dataset ids with a stable error payload", async function () {
+        const ZIP_FILE_DATA = Buffer.from(pairzip, "base64");
+        const res = await (0, supertest_1.default)(SERVER_URL)
+            .put("/dataset/sections/sections")
+            .set("Content-Type", "application/x-zip-compressed")
+            .send(ZIP_FILE_DATA);
+        (0, chai_1.expect)(res.status).to.be.equal(400);
+        (0, chai_1.expect)(res.body).to.include({ code: "INSIGHT_ERROR" });
+        (0, chai_1.expect)(res.body.error).to.contain("already been added");
+    });
+    it("PUT rejects invalid dataset ids with a stable error payload", async function () {
+        const ZIP_FILE_DATA = Buffer.from(cpsczip, "base64");
+        const res = await (0, supertest_1.default)(SERVER_URL)
+            .put("/dataset/bad_id/sections")
+            .set("Content-Type", "application/x-zip-compressed")
+            .send(ZIP_FILE_DATA);
+        (0, chai_1.expect)(res.status).to.be.equal(400);
+        (0, chai_1.expect)(res.body).to.deep.equal({ code: "INSIGHT_ERROR", error: "Invalid ID" });
+    });
+    it("PUT rejects invalid dataset kinds with a stable error payload", async function () {
+        const ZIP_FILE_DATA = Buffer.from(cpsczip, "base64");
+        const res = await (0, supertest_1.default)(SERVER_URL)
+            .put("/dataset/badkind/invalid")
+            .set("Content-Type", "application/x-zip-compressed")
+            .send(ZIP_FILE_DATA);
+        (0, chai_1.expect)(res.status).to.be.equal(400);
+        (0, chai_1.expect)(res.body).to.deep.equal({ code: "INSIGHT_ERROR", error: "Invalid Dataset Kind" });
+    });
     it("PUT test for rooms dataset", async function () {
         const ZIP_FILE_DATA = Buffer.from(campuszip, "base64");
         const ENDPOINT_URL = "/dataset/campus/rooms";
@@ -71,6 +99,11 @@ describe("Facade D3", function () {
         const ENDPOINT_URL = "/dataset/sections";
         const res = await (0, supertest_1.default)(SERVER_URL).delete(ENDPOINT_URL);
         (0, chai_1.expect)(res.status).to.be.equal(200);
+    });
+    it("DELETE returns 404 for missing datasets", async function () {
+        const res = await (0, supertest_1.default)(SERVER_URL).delete("/dataset/missing");
+        (0, chai_1.expect)(res.status).to.be.equal(404);
+        (0, chai_1.expect)(res.body).to.deep.equal({ code: "NOT_FOUND", error: "This dataset does not exist." });
     });
     it("POST test for query", async function () {
         const ENDPOINT_URL = "/query";
@@ -102,10 +135,40 @@ describe("Facade D3", function () {
             .send(QUERY);
         (0, chai_1.expect)(res.status).to.be.equal(200);
     });
+    it("POST returns a stable error payload for invalid queries", async function () {
+        const res = await (0, supertest_1.default)(SERVER_URL)
+            .post("/query")
+            .send({});
+        (0, chai_1.expect)(res.status).to.be.equal(400);
+        (0, chai_1.expect)(res.body).to.deep.equal({
+            code: "INSIGHT_ERROR",
+            error: "Syntax Error: Unable to parse query",
+        });
+    });
+    it("POST returns a stable error payload for oversized results", async function () {
+        const res = await (0, supertest_1.default)(SERVER_URL)
+            .post("/query")
+            .send({
+            WHERE: {},
+            OPTIONS: {
+                COLUMNS: ["sections_dept"],
+            },
+        });
+        (0, chai_1.expect)(res.status).to.be.equal(400);
+        (0, chai_1.expect)(res.body).to.deep.equal({
+            code: "RESULT_TOO_LARGE",
+            error: "Result set contains more than 5000 records.",
+        });
+    });
     it("GET test for datasets", async function () {
         const ENDPOINT_URL = "/datasets";
         const res = await (0, supertest_1.default)(SERVER_URL).get(ENDPOINT_URL);
         (0, chai_1.expect)(res.status).to.be.equal(200);
+        (0, chai_1.expect)(res.body.result).to.deep.equal([{
+                id: "sections",
+                kind: "sections",
+                numRows: 64612,
+            }]);
     });
 });
 //# sourceMappingURL=Server.spec.js.map
